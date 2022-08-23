@@ -1,0 +1,46 @@
+import book from '../../assets/images/book.svg';
+
+import { Box, Flex, Image, Text } from '@chakra-ui/react';
+
+import { HeaderLink } from './link.header';
+
+export const Header = () => {
+  return (
+    <Flex
+      as='header'
+      flexDirection='column'
+      justifyContent='center'
+      alignItems='center'
+      fontSize='xl'
+      fontWeight='light'
+      color='blue.500'
+    >
+      <Box
+        width='100%'
+        height='40px'
+        bgGradient='linear(to-r, green.100, blue.100)'
+      ></Box>
+      <Flex
+        width='100%'
+        maxWidth='1024px'
+        justifyContent='space-around'
+        marginTop='10px'
+      >
+        <Flex alignContent='center'>
+          <Text
+            height='fit-content'
+            marginRight='5px'
+            fontStyle='italic'
+            textAlign='center'
+          >
+            my library
+          </Text>
+          <Image src={book} width='30px' height='fit-content' />
+        </Flex>
+        <HeaderLink url='/' innerText='home' />
+        <HeaderLink url='/instructions' innerText='instruções' />
+        <HeaderLink url='/contact' innerText='contato' />
+      </Flex>
+    </Flex>
+  );
+};
