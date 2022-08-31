@@ -14,7 +14,7 @@ export const HomeLink = ({ url, innerText }: IHomeHeader) => {
       to={url}
       margin='0 4px 4px 0'
       border='1px solid transparent'
-      padding='2px'
+      padding='2px 4px'
       borderRadius='5px'
       fontSize='lg'
       backgroundColor='blue.100'

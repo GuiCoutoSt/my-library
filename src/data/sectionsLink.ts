@@ -1,6 +1,14 @@
 export const sectionsLink = [
   {
-    url: '/subject/medicine',
-    innerText: 'Medicina',
+    url: '/subject/general-medicine',
+    innerText: 'Medicina Geral',
+  },
+  {
+    url: '/subject/alternative-medicine',
+    innerText: 'Medicina Alternativa',
+  },
+  {
+    url: '/subject/nutrition',
+    innerText: 'Nutrição',
   },
 ];

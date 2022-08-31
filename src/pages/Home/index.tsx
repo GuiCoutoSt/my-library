@@ -2,7 +2,7 @@ import { Link as RouterDom } from 'react-router-dom';
 
 import { sectionsLink } from '../../data/sectionsLink';
 
-import book from '../../assets/images/book.svg';
+import F4D5 from '../../assets/images/1F4D5.svg';
 
 import {
   Box,
@@ -14,34 +14,19 @@ import {
   StatHelpText,
   Text,
   Image,
+  Highlight,
 } from '@chakra-ui/react';
 
-import { medicine } from '../../data/medicina';
+import { general_medicine } from '../../data/medicine';
+import { nutrition } from '../../data/nutrition';
+
 import { HomeLink } from './link.home';
 
 export const Home = () => {
+  let booksLength = general_medicine.length + nutrition.length;
+
   return (
     <Flex flexDirection='column' justifyContent='center' alignItems='center'>
-      <Stat
-        width='fit-content'
-        position='absolute'
-        bottom='0'
-        left='50%'
-        transform='translateX(-50%)'
-        margin='30px auto'
-        padding='10px'
-        border='1px solid'
-        borderColor='gray.200'
-        borderRadius='5px'
-        textAlign='left'
-        backgroundColor='white'
-      >
-        <StatLabel>Total de Livros</StatLabel>
-        <StatNumber>{medicine.length}</StatNumber>
-        <StatHelpText fontStyle='italic'>
-          Número de livros cadastrados
-        </StatHelpText>
-      </Stat>
       <Box width='500px'>
         <Box marginTop='100px' textAlign='center' position='relative'>
           <Flex alignContent='center' justifyContent='center' margin='15px'>
@@ -56,7 +41,12 @@ export const Home = () => {
             >
               my library
             </Text>
-            <Image src={book} width='80px' height='fit-content' />
+            <Image
+              src={F4D5}
+              draggable='false'
+              width='80px'
+              height='fit-content'
+            />
           </Flex>
           <Text fontSize='xl'>
             Seja bem-vindo ao <Text as='strong'>my library</Text>! Aqui você tem
@@ -66,7 +56,9 @@ export const Home = () => {
               as={RouterDom}
               to='/instructions'
               fontWeight='bold'
+              fontStyle='italic'
               color='blue.500'
+              _hover={{ color: 'gray.500' }}
             >
               instruções
             </Link>
@@ -75,34 +67,61 @@ export const Home = () => {
               as={RouterDom}
               to='/contact'
               fontWeight='bold'
+              fontStyle='italic'
               color='blue.500'
+              _hover={{ color: 'gray.500' }}
             >
               entre em contato
             </Link>
             . Tenha uma boa leitura!
           </Text>
         </Box>
+        <Stat
+          margin='30px auto'
+          padding='10px'
+          border='1px solid'
+          borderColor='gray.200'
+          borderRadius='5px'
+          textAlign='left'
+          backgroundColor='white'
+        >
+          <StatLabel fontSize='lg' fontWeight='semibold'>
+            Total de Livros
+          </StatLabel>
+          <StatNumber>{booksLength}</StatNumber>
+          <StatHelpText fontStyle='italic'>
+            Número de livros cadastrados no sistema
+          </StatHelpText>
+        </Stat>
         <Box>
           <Text
+            as='h2'
             width='fit-content'
             margin='30px 0 10px 0'
             fontSize='3xl'
             fontWeight='semibold'
             fontStyle='italic'
             textTransform='lowercase'
-            textDecoration='underline'
           >
-            assuntos
+            <Highlight
+              query='assuntos'
+              styles={{ px: '2', py: '1', bg: 'orange.100' }}
+            >
+              assuntos
+            </Highlight>
           </Text>
         </Box>
-        <Box borderBottomRadius='5px' backgroundColor='gray.100'>
-          <Box padding='10px' fontSize='lg'>
-            <Text fontSize='lg' fontStyle='italic'>
-              Esses são os assuntos que dividem as seções de livros disponíveis
-              em sua biblioteca. Para acessar, basta clicar na seção desejada.
-            </Text>
-          </Box>
-          {/* Aqui é possível criar uma renderização mais inteligente  */}
+
+        <Box
+          borderRadius='5px'
+          backgroundColor='gray.100'
+          padding='10px'
+          fontSize='lg'
+        >
+          <Text fontSize='lg' fontStyle='italic'>
+            Esses são os assuntos que dividem as seções de livros disponíveis em
+            sua biblioteca. Para acessar, basta clicar na seção desejada.
+          </Text>
         </Box>
         <Flex
           as='nav'

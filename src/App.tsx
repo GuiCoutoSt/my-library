@@ -1,12 +1,14 @@
-import { medicine } from './data/medicina';
+import { general_medicine } from './data/medicine';
+import { nutrition } from './data/nutrition';
 
 import { Switch, Route } from 'react-router-dom';
+
+import { Box, Flex } from '@chakra-ui/react';
 
 import { Header } from './components/Header';
 import { Home } from './pages/Home';
 import { Instructions } from './pages/Instructions';
 import { SectionPage } from './components/SectionPage';
-import { Box, Flex } from '@chakra-ui/react';
 
 export const App = () => {
   return (
@@ -16,9 +18,15 @@ export const App = () => {
         <Box maxWidth='1200px'>
           <Switch>
             <Route exact path='/' component={Home}></Route>
-            <Route exact path='/instrucoes' component={Instructions}></Route>
-            <Route exact path='/subject/medicine'>
-              <SectionPage sessionName='Medicina Geral' data={medicine} />
+            <Route exact path='/instructions' component={Instructions}></Route>
+            <Route exact path='/subject/general-medicine'>
+              <SectionPage
+                sessionName='Medicina Geral'
+                data={general_medicine}
+              />
+            </Route>
+            <Route exact path='/subject/nutrition'>
+              <SectionPage sessionName='Nutrição' data={nutrition} />
             </Route>
           </Switch>
         </Box>

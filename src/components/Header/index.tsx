@@ -1,4 +1,4 @@
-import book from '../../assets/images/book.svg';
+import F4D5 from '../../assets/images/1F4D5.svg';
 
 import { Box, Flex, Image, Text } from '@chakra-ui/react';
 
@@ -35,7 +35,12 @@ export const Header = () => {
           >
             my library
           </Text>
-          <Image src={book} width='30px' height='fit-content' />
+          <Image
+            src={F4D5}
+            draggable='false'
+            width='30px'
+            height='fit-content'
+          />
         </Flex>
         <HeaderLink url='/' innerText='home' />
         <HeaderLink url='/instructions' innerText='instruções' />
