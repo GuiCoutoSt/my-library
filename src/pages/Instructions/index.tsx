@@ -398,7 +398,7 @@ export const Instructions = () => {
           >
             <Text>
               Ao ser redirecionado para a seção escolhida, serão exibidos todos
-              os livros disponíveis dentro do assunto escolhido. Para filtrar a
+              os livros cadastrados, dentro do assunto escolhido. Para filtrar a
               pesquisa, basta escrever o termo a ser pesquisado e os resultados
               aparecem automaticamente.
             </Text>
