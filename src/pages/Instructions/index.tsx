@@ -49,10 +49,27 @@ export const Instructions = () => {
             Aqui você encontra as instruções necessárias para a utilização do{' '}
             <Text as='strong'>my library</Text>.
           </Text>
+          <Box as='nav' textTransform='uppercase' textAlign='center'>
+            <List as='ul'>
+              <ListItem>
+                <Link href='#sections'>seções</Link>
+              </ListItem>
+              <ListItem>
+                <Link>entendendo os registros</Link>
+              </ListItem>
+              <ListItem>
+                <Link>pesquisando</Link>
+              </ListItem>
+              <ListItem>
+                <Link>localizando livros na biblioteca</Link>
+              </ListItem>
+            </List>
+          </Box>
         </Box>
 
         <Box margin='80px 0'>
           <Text
+            id='sections'
             width='fit-content'
             margin='30px 0 10px 0'
             fontSize='2xl'

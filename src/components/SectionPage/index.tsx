@@ -34,7 +34,7 @@ export const SectionPage = ({ sessionName, data }: ISubjaectProps) => {
 
   return (
     <Flex flexDirection='column' justifyContent='center'>
-      <Box padding='20px' textAlign='center'>
+      <Box padding='20px 0' textAlign='center'>
         <Text
           as='h1'
           fontSize='5xl'

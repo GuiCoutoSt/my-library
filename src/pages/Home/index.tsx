@@ -17,13 +17,27 @@ import {
   Highlight,
 } from '@chakra-ui/react';
 
-import { general_medicine } from '../../data/medicine';
+import { general_medicine } from '../../data/general_medicine';
 import { nutrition } from '../../data/nutrition';
 
 import { HomeLink } from './link.home';
+import { ecology } from '../../data/ecology';
+import { pedagogy } from '../../data/pedagogy';
 
 export const Home = () => {
-  let booksLength = general_medicine.length + nutrition.length;
+  let dataList = [ecology, general_medicine, nutrition, pedagogy];
+
+  const booksSum = () => {
+    let sum = 0;
+
+    for (let i = 0; i < dataList.length; i++) {
+      sum += dataList[i].length;
+    }
+
+    return sum;
+  };
+
+  let totalOfBooks = booksSum();
 
   return (
     <Flex flexDirection='column' justifyContent='center' alignItems='center'>
@@ -88,7 +102,7 @@ export const Home = () => {
           <StatLabel fontSize='lg' fontWeight='semibold'>
             Total de Livros
           </StatLabel>
-          <StatNumber>{booksLength}</StatNumber>
+          <StatNumber>{totalOfBooks}</StatNumber>
           <StatHelpText fontStyle='italic'>
             Número de livros cadastrados no sistema
           </StatHelpText>
