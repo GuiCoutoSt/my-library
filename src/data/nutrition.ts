@@ -2425,4 +2425,17 @@ export const nutrition = [
   },
 
   // ! LIVROS CATALOGADOS ATÉ O DIA 29/08/2022
+
+  {
+    number: '237',
+    title: 'Algas para mejorar la salud y vitalidad',
+    author: 'Frank Wilson',
+    volume: '-',
+    edition: '-',
+    publication_date: '1981',
+    subject: 'Vegetais marinhos; valor nutricional; receitas',
+    note: '-',
+  },
+
+  // ! LIVROS CATALOGADOS ATÉ O DIA 01/09/2022
 ];
