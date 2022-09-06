@@ -55,6 +55,7 @@ export const Contact = () => {
 
             <Link
               href='https://wa.me/5561982342442'
+              target='_blank'
               marginTop='10px'
               display='block'
               fontSize='sm'
