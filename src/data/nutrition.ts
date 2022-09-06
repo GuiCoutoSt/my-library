@@ -929,6 +929,16 @@ export const nutrition = [
   },
   {
     number: '91',
+    title: 'Vivendo sem glúten para leigos',
+    author: 'Danna Korn',
+    edition: '-',
+    volume: '-',
+    publication_date: '2010',
+    subject: 'Alergias; gluten; receitas; hábitos alimentares',
+    note: '-',
+  },
+  {
+    number: '92',
     title: 'Manual das necessidades nutricionais humanas',
     author: 'World Health Organization',
     edition: '-',
@@ -938,7 +948,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '92',
+    number: '93',
     title: 'O que há de errado em comer carne',
     author: 'Bárbara Parham',
     edition: '-',
@@ -948,7 +958,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '93',
+    number: '94',
     title: 'Os intoxicados',
     author: 'J. R. Vasconcellos',
     edition: '-',
@@ -958,7 +968,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '94',
+    number: '95',
     title: '500 sopas: as mais incríveis receitas em um único livro',
     author: 'Susannah Blake',
     edition: '-',
@@ -968,7 +978,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '95',
+    number: '96',
     title:
       '500 receitas vegetarianas: as mais incríveis receitas em um único livro',
     author: 'Deborah Gray',
@@ -976,16 +986,6 @@ export const nutrition = [
     volume: '-',
     publication_date: '2012',
     subject: 'Receitas; dieta vegetariana; vegetarianismo',
-    note: '-',
-  },
-  {
-    number: '96',
-    title: '170 receitas para a recuperação da saúde',
-    author: 'Retiro de Recuperação da Saúde',
-    edition: '-',
-    volume: '-',
-    publication_date: '-',
-    subject: 'Receitas',
     note: '-',
   },
   {
@@ -1000,6 +1000,16 @@ export const nutrition = [
   },
   {
     number: '98',
+    title: '170 receitas para a recuperação da saúde',
+    author: 'Retiro de Recuperação da Saúde',
+    edition: '-',
+    volume: '-',
+    publication_date: '-',
+    subject: 'Receitas',
+    note: '-',
+  },
+  {
+    number: '99',
     title: 'Os alimentos naturais milagrosos',
     author: 'Robert Dudley',
     edition: '-',
@@ -1009,7 +1019,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '99',
+    number: '100',
     title: 'As saladas naturais',
     author: 'Arnold Shaker',
     edition: '-',
@@ -1019,7 +1029,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '100',
+    number: '101',
     title: 'O arroz integral',
     author: 'Yoshio Hatano',
     edition: '-',
@@ -1029,7 +1039,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '101',
+    number: '102',
     title: 'Emagreça feliz',
     author: 'Tania Alves',
     edition: '-',
@@ -1039,7 +1049,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '102',
+    number: '103',
     title: 'Faça suas escolhas: emagreça e viva melhor com o Spectrum',
     author: 'Dean Ornish',
     edition: '-',
@@ -1050,7 +1060,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '103',
+    number: '104',
     title: 'Coping with food intolerances: surviving the nineties',
     author: 'Dick Thom',
     edition: '-',
@@ -1060,7 +1070,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '104',
+    number: '105',
     title: 'Sugar Blues',
     author: 'William Duffy',
     edition: '-',
@@ -1070,7 +1080,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '105',
+    number: '106',
     title: 'Sal assassino',
     author: 'Marietta Whittlesey',
     edition: '-',
@@ -1080,7 +1090,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '106',
+    number: '107',
     title: 'A carne e a saúde',
     author: 'Alfons Balbach',
     edition: '-',
@@ -1090,7 +1100,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '107',
+    number: '108',
     title: 'Dieta para salvar a vida',
     author: 'David Reuben',
     edition: '-',
@@ -1100,7 +1110,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '108',
+    number: '109',
     title: 'Pontos para o gordo',
     author: 'Alfredo Halpern',
     edition: '-',
@@ -1110,7 +1120,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '109',
+    number: '110',
     title: 'Magro para sempre',
     author: 'Alfredo Halpern',
     edition: '-',
@@ -1120,7 +1130,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '110',
+    number: '111',
     title: 'Saúde total através da soja e do amendoim',
     author: 'CEPAN',
     edition: '-',
@@ -1130,7 +1140,7 @@ export const nutrition = [
     note: 'O livro possui dedicatória',
   },
   {
-    number: '111',
+    number: '112',
     title: 'O mundo é o que você come',
     author: 'Barbara Kingsolver',
     edition: '-',
@@ -1140,23 +1150,13 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '112',
+    number: '113',
     title: 'Os brotos',
     author: 'Akira Nakayama',
     edition: '-',
     volume: '-',
     publication_date: '1984',
     subject: 'Alimentos naturais; receitas; brotos',
-    note: '-',
-  },
-  {
-    number: '113',
-    title: 'Nutrição e doença',
-    author: 'Carlos Eduardo Leite',
-    edition: '-',
-    volume: '-',
-    publication_date: '1987',
-    subject: 'Doenças induzidas pela nutrição',
     note: '-',
   },
   {
@@ -1191,6 +1191,16 @@ export const nutrition = [
   },
   {
     number: '117',
+    title: 'Nutrição e doença',
+    author: 'Carlos Eduardo Leite',
+    edition: '-',
+    volume: '-',
+    publication_date: '1987',
+    subject: 'Doenças induzidas pela nutrição',
+    note: '-',
+  },
+  {
+    number: '118',
     title: 'Alimentos que curam',
     author: 'Miriam Polunin',
     edition: '-',
@@ -1201,7 +1211,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '118',
+    number: '119',
     title: 'Raw juices can save your life',
     author: 'Sandra Cabot',
     edition: '-',
@@ -1211,7 +1221,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '119',
+    number: '120',
     title: 'Alimentação dissociada',
     author: 'Ludwig Walb',
     edition: '-',
@@ -1221,7 +1231,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '120',
+    number: '121',
     title: 'Novos caminhos de alimentação',
     author: 'Gudrun Krökel Burkhard',
     edition: '-',
@@ -1231,7 +1241,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '121',
+    number: '122',
     title: 'Segredos em nutrição',
     author: 'Charles W. Van Way III',
     edition: '-',
@@ -1241,7 +1251,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '122',
+    number: '123',
     title: 'Mantenha-se saudável com o dr. Minuzzi',
     author: 'Antônio Carlos Minuzzi',
     edition: '-',
@@ -1251,7 +1261,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '123',
+    number: '124',
     title: 'Coma, beba, seja saudável',
     author: 'Walter C. Willet',
     edition: '-',
@@ -1261,7 +1271,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '124',
+    number: '125',
     title: 'Food and health data: their use in nutrition policy-making',
     author: 'World Health Organization',
     edition: '-',
@@ -1272,7 +1282,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '125',
+    number: '126',
     title: 'Alimentação e câncer',
     author: 'Jean Lederer',
     edition: '-',
@@ -1282,7 +1292,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '126',
+    number: '127',
     title: 'O livro de saúde do New York Times',
     author: 'Jane E. Brody',
     edition: '-',
@@ -1292,7 +1302,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '127',
+    number: '128',
     title:
       'A dieta saudável de vegetais: o guia completo para uma nova alimentação',
     author: 'Brenda Davis; Victoria Harrison',
@@ -1303,7 +1313,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '128',
+    number: '129',
     title:
       'A desnutrição dos pobres e dos ricos: dados sobre a alimentação no Brasil',
     author:
@@ -1315,7 +1325,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '129',
+    number: '130',
     title: 'Detox',
     author: 'Andrea Henrique ',
     edition: '-',
@@ -1325,7 +1335,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '130',
+    number: '131',
     title:
       'A dieta da mente: a surpreendente verdade sobre o glúten e os carboidratos - os assassinos silenciosos do seu cérebro',
     author: 'David Perlmutter',
@@ -1336,7 +1346,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '131',
+    number: '132',
     title:
       'Sinal verde para a carne vermelha: uma nova luz sobre a alimentação saudável',
     author: 'Wilson Rondó',
@@ -1347,7 +1357,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '132',
+    number: '133',
     title:
       'Alimentos: o melhor remédio para a boa saúde: alimentação que pode prevenir e curar doenças cardiovasculares',
     author: 'Jean Carper',
@@ -1358,7 +1368,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '133',
+    number: '134',
     title:
       'Alimentos: o melhor remédio para a boa saúde: alimentação que pode prevenir e curar problemas respiratórias ',
     author: 'Jean Carper',
@@ -1369,7 +1379,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '134',
+    number: '135',
     title: 'Macrobiótica: as bases científicas ',
     author: 'Flávio Zanatta',
     edition: '-',
@@ -1379,7 +1389,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '135',
+    number: '136',
     title:
       'Avances sobre el uso y las propiedades de los carbohidratos de los alimentos regionales',
     author: 'Elizabete Wenzel de Menezes; Franco Maria Lajolo',
@@ -1390,7 +1400,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '136',
+    number: '137',
     title:
       'Prato sujo: como a indústria manipula os alimentos para viciar você',
     author: 'Marca Kedouk',
@@ -1401,7 +1411,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '137',
+    number: '138',
     title: 'The science and fine art of food and nutrition',
     author: 'Herbert M. Shelton',
     edition: '-',
@@ -1411,7 +1421,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '138',
+    number: '139',
     title: 'Superior Nutrition',
     author: 'Herbert M. Shelton',
     edition: '-',
@@ -1421,7 +1431,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '139',
+    number: '140',
     title: 'Dieta 456: a dieta do ABC',
     author: 'Valter de Oliveira Filho ',
     edition: '-',
@@ -1431,27 +1441,27 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '140',
+    number: '141',
     title: 'Gosto superior: guia prático de alimentação vegetariana ',
     author: 'Fundação Bhaktivedanta',
     edition: '-',
     volume: '-',
-    publication_date: 'c1990',
+    publication_date: '1990',
     subject: 'Vegetarianismo; dieta; receitas',
     note: '-',
   },
   {
-    number: '141',
-    title: 'mais de 200 receitas de sucos',
+    number: '142',
+    title: 'Mais de 200 receitas de sucos',
     author: 'Polishop',
     edition: '-',
     volume: '-',
-    publication_date: 'c2007',
+    publication_date: '2007',
     subject: 'Saúde; desintoxicantes; hortaliças; frutas',
     note: '-',
   },
   {
-    number: '142',
+    number: '143',
     title: 'Novos caminhos de alimentação',
     author: 'Gudrun Krökel Burkhand',
     edition: '-',
@@ -1461,7 +1471,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '143',
+    number: '144',
     title: 'A dieta do abdômen',
     author: 'David Zinczenko',
     edition: '2',
@@ -1471,7 +1481,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '144',
+    number: '145',
     title: 'Terapias nutricionais avançadas',
     author: 'Kenneth H. Cooper',
     edition: '-',
@@ -1481,7 +1491,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '145',
+    number: '146',
     title:
       '7-day detox miracle: revitalize your mind and body with this safe and effective life-enhancing program',
     author: 'Peter Bennett; Stephen Barrie ',
@@ -1492,7 +1502,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '146',
+    number: '147',
     title: 'Faça do seu alimento o seu medicamento: previna doenças',
     author: 'Jocelem Mastrodi Salgado ',
     edition: '-',
@@ -1502,7 +1512,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '147',
+    number: '148',
     title:
       'A nova revolução da glicose: a solução para a saúde ideal. - mude sua alimentação, emagreça e viva melhor',
     author: 'Jennie Brand Miller; Kaye Foster-Powel; Stephen Colagiuri',
@@ -1513,7 +1523,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '148',
+    number: '149',
     title: 'Receitas com ovos',
     author: 'Michel Roux',
     edition: '-',
@@ -1523,7 +1533,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '149',
+    number: '150',
     title: 'Ovo: o mito do colesterol',
     author: 'Sérgio Puppin',
     edition: '-',
@@ -1533,7 +1543,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '150',
+    number: '151',
     title: 'Por dentro das panelas',
     author: 'Késia Diego Quintaes',
     edition: '-',
@@ -1543,7 +1553,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '151',
+    number: '152',
     title:
       'Alimentação viva e ecológica: um guia para organizar a sua dieta com sabedoria e receitas vivas deliciosas',
     author: "Ros'ellis Moraes",
@@ -1554,7 +1564,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '152',
+    number: '153',
     title: '100 sucos com poderes medicinais',
     author: 'Lelington Lobo Franco',
     edition: '-',
@@ -1564,7 +1574,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '153',
+    number: '154',
     title: 'Receitas do Kur Hotel ',
     author: 'Luís Carlos Silveira',
     edition: '-',
@@ -1574,7 +1584,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '154',
+    number: '155',
     title: 'A verdade sobre a comida',
     author: 'Jill Fullerton-Smith',
     edition: '-',
@@ -1584,17 +1594,17 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '155',
+    number: '156',
     title: 'Nutritional balancing and hair mineral analysis',
     author: 'Lawrence Wilson',
     edition: '-',
     volume: '-',
-    publication_date: 'c2005',
+    publication_date: '2005',
     subject: 'Cabelo; oxidação; minerais',
     note: '-',
   },
   {
-    number: '156',
+    number: '157',
     title: 'A cura natural pela macrobiótica',
     author: 'Micho Kushi',
     edition: '-',
@@ -1604,7 +1614,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '157',
+    number: '158',
     title: 'Nutrição & minerais aminoácidos quelatos',
     author: 'H. DeWayne Ashmeaad',
     edition: '-',
@@ -1614,37 +1624,37 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '158',
+    number: '159',
     title: 'Food and healing',
     author: 'Annemari Colbin',
     edition: '-',
     volume: '-',
-    publication_date: 'c1986',
+    publication_date: '1986',
     subject: 'Alimentos; cura; doença',
     note: '-',
   },
   {
-    number: '159',
+    number: '160',
     title: 'Medical applications of clinical nutrition',
     author: 'Jeffrey Bland',
     edition: '-',
     volume: '-',
-    publication_date: 'c1983',
+    publication_date: '1983',
     subject: 'Prevenção de doenças; dietoterapia; tratamento',
     note: '-',
   },
   {
-    number: '160',
+    number: '161',
     title: 'Faça do seu alimento o seu medicamento: previna doenças',
     author: 'Jocelem Mastrodi Salgado ',
     edition: '-',
     volume: '-',
-    publication_date: 'c2002',
+    publication_date: '2002',
     subject: 'Alimentos funcionais; Hábitos alimentares; nutrição',
     note: '-',
   },
   {
-    number: '161',
+    number: '162',
     title: 'A combinação dos alimentos ',
     author: 'Doris Grant Jean Joice',
     edition: '2',
@@ -1654,7 +1664,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '162',
+    number: '163',
     title: 'Você sabe se desintoxicar?',
     author: 'Soleil',
     edition: '3',
@@ -1664,7 +1674,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '163',
+    number: '164',
     title: 'Você sabe se alimentar?',
     author: 'Soleil',
     edition: '6',
@@ -1674,17 +1684,17 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '164',
+    number: '165',
     title: 'Food for healthy kids',
     author: 'Lendon Smith',
     edition: '-',
     volume: '-',
-    publication_date: 'c1981',
+    publication_date: '1981',
     subject: 'Pediatria; alimentação; vitaminas; minerais',
     note: '-',
   },
   {
-    number: '165',
+    number: '166',
     title: 'Is low blood sugar making you a nutritional cripple? ',
     author: 'Ruth Adams; Frank Murray',
     edition: '-',
@@ -1694,7 +1704,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '166',
+    number: '167',
     title: 'Emagreça mudando o corpo e a cabeça',
     author: 'Marcelo Kessler; Alfredo Halpern; Ruben Kuzerfield',
     edition: '-',
@@ -1704,7 +1714,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '167',
+    number: '168',
     title: 'Saúde pela alimentação correta',
     author: 'Mário Sanchez ',
     edition: '5',
@@ -1714,7 +1724,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '168',
+    number: '169',
     title: 'Princípios de alimentação racional',
     author: 'Emanuele Djalma Vitali',
     edition: '-',
@@ -1724,7 +1734,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '169',
+    number: '170',
     title: 'Quitosana: a fibra do futuro',
     author: 'Afrânio Aragão Craveiro',
     edition: '-',
@@ -1734,7 +1744,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '170',
+    number: '171',
     title:
       'Nutritional engineering: how to keep your bad habits and still avoid flame-out',
     author: 'David A. Keiper',
@@ -1746,7 +1756,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '171',
+    number: '172',
     title: 'O método Dukan: ilustrado: eu não consigo emagrecer ',
     author: 'Pierre Dukan',
     edition: '-',
@@ -1756,7 +1766,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '172',
+    number: '173',
     title:
       'Vitamin B3 (niacin) update: new roles for a key nutrient in diabetes, cancer, heart disease and other major health problems',
     author: 'Abram Hoffer',
@@ -1767,7 +1777,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '173',
+    number: '174',
     title: 'Macrobiótica zen: a arte da longevidade e do rejuvenescimento',
     author: 'Sakurazawa Nyoiti',
     edition: '-',
@@ -1778,7 +1788,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '174',
+    number: '175',
     title: 'Receitas do sabiá',
     author: 'Núcleo Sabiá',
     edition: '-',
@@ -1788,7 +1798,7 @@ export const nutrition = [
     note: 'O livro possui dedicatória',
   },
   {
-    number: '175',
+    number: '176',
     title: 'Receitas de milho',
     author: 'Wal Cortinhas',
     edition: '-',
@@ -1798,7 +1808,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '176',
+    number: '177',
     title: 'Alimentação natural: do bebê, da criança e do adolescente',
     author: 'Paulo Eiró Gonsalves',
     edition: '-',
@@ -1809,7 +1819,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '177',
+    number: '178',
     title: 'Dieta do mediterrâneo',
     author: 'Equipe ABC da Saúde',
     edition: '-',
@@ -1820,7 +1830,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '178',
+    number: '179',
     title: 'Vegetarianismo e saúde',
     author: 'Jacqueline André',
     edition: '-',
@@ -1830,7 +1840,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '179',
+    number: '180',
     title:
       'Receitas para cura através de nutrientes: um manual prático, de A a Z, para tratamentos naturais usando vitaminas, minerais, ervas e suplementos alimentares',
     author: 'James F. Balch;',
@@ -1841,7 +1851,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '180',
+    number: '181',
     title: 'Diet for a new america',
     author: 'Jhon Robbins',
     edition: '-',
@@ -1851,7 +1861,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '181',
+    number: '182',
     title: 'Super foods',
     author: 'Michael Van Straten',
     edition: '-',
@@ -1861,7 +1871,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '182',
+    number: '183',
     title: 'Human nutrition',
     author: 'Bill Mollison',
     edition: '-',
@@ -1871,7 +1881,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '183',
+    number: '184',
     title:
       'Fome oculta: bases fisiológicas para reduzir seu risco através da alimentação saudável',
     author: 'Rebeca Carlota de Angelis',
@@ -1882,7 +1892,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '184',
+    number: '185',
     title: 'The new super nutrition',
     author: 'Richard A. Passwater',
     edition: '-',
@@ -1893,7 +1903,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '185',
+    number: '186',
     title: "A doctor's proven new home cure for arthritis",
     author: 'Giraud W. Campbell',
     edition: '-',
@@ -1903,7 +1913,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '186',
+    number: '187',
     title: 'Emagrecer é sopa',
     author: 'Márcio Bontempo',
     edition: '-',
@@ -1913,7 +1923,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '187',
+    number: '188',
     title: 'Sugars that heal: the new healing sciences glyconutrients',
     author: 'Emil I. Mondoa; Mindy Kitei',
     edition: '-',
@@ -1923,7 +1933,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '188',
+    number: '189',
     title: 'Nutrition for fitness and sport',
     author: 'Melvin H. Williams',
     edition: '-',
@@ -1933,7 +1943,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '189',
+    number: '190',
     title: 'Sucos para a vida: o poder terapêutico das frutas e hortaliças',
     author: 'Cherie Calbom',
     edition: '-',
@@ -1943,7 +1953,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '190',
+    number: '191',
     title: 'Chega de açúcar',
     author: 'Sarah Wilson',
     edition: '-',
@@ -1953,7 +1963,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '191',
+    number: '192',
     title: 'Mais você: 10 anos',
     author: 'Ana Maria Braga',
     edition: '-',
@@ -1963,7 +1973,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '192',
+    number: '193',
     title: 'Food, nutrition and diet therapy',
     author: 'Kathleen Mahan',
     edition: '-',
@@ -1973,7 +1983,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '193',
+    number: '194',
     title: 'Os alimentos do futuro: orgânicos, transgênicos e nutrição global',
     author: 'Colin Tudge',
     edition: '-',
@@ -1983,7 +1993,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '194',
+    number: '195',
     title: 'Eternamente jovem: bebidas com albumina para garantir a boa forma',
     author: 'Ulrich Strunz',
     edition: '-',
@@ -1993,7 +2003,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '195',
+    number: '196',
     title: 'Alimentação e saúde',
     author: 'Alimentação Sustentável',
     edition: '-',
@@ -2003,7 +2013,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '196',
+    number: '197',
     title: 'Las frutas, fuente de salud y energía',
     author: 'Jose Oriol Avila',
     edition: '-',
@@ -2013,7 +2023,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '197',
+    number: '198',
     title: 'A dieta do seu tipo sanguíneo',
     author: "Peter J.D'Adamo",
     edition: '-',
@@ -2022,11 +2032,8 @@ export const nutrition = [
     subject: 'Grupos sanguíneos; emagrecimento; saúde',
     note: '-',
   },
-
-  // ! LIVROS CATALOGADOS ATÉ O DIA 27/08/2022
-
   {
-    number: '198',
+    number: '199',
     title: 'Glutamina: metabolismo e aplicações clínicas e no esporte',
     author: 'Rui Curi',
     edition: '-',
@@ -2036,7 +2043,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '199',
+    number: '200',
     title:
       'Smart nutrients: a guide to nutrients that can prevent and reverse senility',
     author: 'Abram Hoffer',
@@ -2047,7 +2054,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '200',
+    number: '201',
     title: 'The food allergy cure',
     author: 'Ellen Cutler',
     edition: '-',
@@ -2058,7 +2065,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '201',
+    number: '202',
     title: 'Interação entre alimentos e medicamentos',
     author: 'Rosane Gomez; Carina Duarte Venturini',
     edition: '-',
@@ -2068,7 +2075,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '202',
+    number: '203',
     title: "The health professional's guide to dietary supplements",
     author: 'Shawn M. Talbott',
     edition: '-',
@@ -2078,18 +2085,18 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '203',
+    number: '204',
     title:
       'Barriga de trigo:livre-se do trigo, livre-se dos quilos a mais e descubra seu caminho de volta para a saúde;',
     author: 'William Davis',
     edition: '-',
     volume: '-',
     publication_date: '2013',
-    subject: 'Gluten; dieta sem trigo; dieta sem glúten; emagrecimento',
+    subject: 'Gluten; dieta sem trigo; dieta sem gluten; emagrecimento',
     note: '-',
   },
   {
-    number: '204',
+    number: '205',
     title: 'Eu não consigo emagrecer: a dieta dukan',
     author: 'Pierre Dukan',
     edition: '-',
@@ -2099,7 +2106,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '205',
+    number: '206',
     title: 'Receitas dukan: minha dieta em 300 receitas',
     author: 'Pierre Dukan',
     edition: '-',
@@ -2109,7 +2116,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '206',
+    number: '207',
     title: 'Suplementos nutricionais e produtos naturais',
     author: 'Márcio Bontempo',
     edition: '-',
@@ -2119,7 +2126,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '207',
+    number: '208',
     title: 'Organic vegan cuisine: for sustainable living and food security',
     author: 'Loving Recipes',
     edition: '-',
@@ -2129,9 +2136,9 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '208',
+    number: '209',
     title:
-      'The 150 healthiest foods on earth: the surprising, unbiased truth about what you should eat and why',
+      'The 150 healthiest foods on earth: the surprisenig, unbiased truth about what you should eat and why',
     author: 'Jonny Bowden',
     edition: '-',
     volume: '-',
@@ -2140,7 +2147,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '209',
+    number: '210',
     title: 'Nutrition and the brain',
     author: 'Richard J. Wurtman',
     edition: '-',
@@ -2150,7 +2157,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '210',
+    number: '211',
     title: 'A mentira do glúten: e outros mitos sobre o que você come',
     author: 'Alan Levinovitz',
     edition: '-',
@@ -2160,59 +2167,59 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '211',
+    number: '212',
     title: 'Gluten free gourmet cooks comfort foods',
     author: 'Bette Hagman',
     edition: '-',
     volume: '-',
     publication_date: '2004',
-    subject: 'Glúten; receitas sem trigo; receitas sem gluten',
+    subject: 'Gluten; receitas sem trigo; receitas sem gluten',
     note: '-',
   },
   {
-    number: '212',
+    number: '213',
     title: 'Gluten-related disorders',
     author: 'Alessio Fasano',
     edition: '-',
     volume: '-',
     publication_date: '2014',
-    subject: 'Hipersensibilidade ao glúten; glúten; doença celíaca',
-    note: '-',
-  },
-  {
-    number: '213',
-    title: 'Sem glúten',
-    author: 'Lorete Maria da Silva Kotze',
-    edition: '-',
-    volume: '-',
-    publication_date: '2001',
-    subject: 'Glúten; receitas sem trigo; receitas sem gluten',
+    subject: 'Hipersensibilidade ao gluten; gluten; doença celíaca',
     note: '-',
   },
   {
     number: '214',
-    title: 'Glúten freedom',
+    title: 'Sem gluten',
+    author: 'Lorete Maria da Silva Kotze',
+    edition: '-',
+    volume: '-',
+    publication_date: '2001',
+    subject: 'Gluten; receitas sem trigo; receitas sem gluten',
+    note: '-',
+  },
+  {
+    number: '215',
+    title: 'Gluten freedom',
     author: 'Alessio Fasano',
     edition: '-',
     volume: '-',
     publication_date: '2014',
     subject:
-      'Gluten; receitas sem trigo; receitas sem gluten; dieta sem glúten',
+      'Gluten; receitas sem trigo; receitas sem gluten; dieta sem gluten',
     note: '-',
   },
   {
-    number: '215',
-    title: 'Dieta sem glúten: um guia essencial para uma vida saudável',
+    number: '216',
+    title: 'Dieta sem gluten: um guia essencial para uma vida saudável',
     author: 'Alessio Fasano',
     edition: '-',
     volume: '-',
     publication_date: '2015',
     subject:
-      'Gluten; receitas sem trigo; receitas sem gluten; dieta sem glúten',
+      'Gluten; receitas sem trigo; receitas sem gluten; dieta sem gluten',
     note: '-',
   },
   {
-    number: '216',
+    number: '217',
     title: 'Acid and alkaline',
     author: 'Herman Aihara',
     edition: '-',
@@ -2222,7 +2229,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '217',
+    number: '218',
     title: "Earl Mindell's vitamin bible for the 21st century",
     author: 'Earl Mindell',
     edition: '-',
@@ -2232,7 +2239,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '218',
+    number: '219',
     title: "Earl Mindell's new vitamin bible ",
     author: 'Earl Mindell',
     edition: '-',
@@ -2242,7 +2249,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '219',
+    number: '220',
     title: 'Clear body clear mind',
     author: 'L. Ron Rubbard',
     edition: '-',
@@ -2252,7 +2259,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '220',
+    number: '221',
     title: 'The 20-day rejuvenation diet program',
     author: 'Jeffrey Bland',
     edition: '-',
@@ -2262,7 +2269,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '221',
+    number: '222',
     title: 'Meditando na cozinha',
     author: 'Sonia Hirsch',
     edition: '-',
@@ -2272,7 +2279,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '222',
+    number: '223',
     title:
       'The Gerson therapy: the proven nutritional program for cancer and other illnesses',
     author: 'Charlotte Gerson; Morton Walker',
@@ -2283,7 +2290,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '223',
+    number: '224',
     title: 'Perguntas e respostas em nutrição clínica',
     author: 'Daniel Magnoni; Celso Cukier',
     edition: '-',
@@ -2293,7 +2300,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '224',
+    number: '225',
     title: 'Regime alimentar para doenças do fígado',
     author: 'L. Cailon',
     edition: '-',
@@ -2303,7 +2310,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '225',
+    number: '226',
     title: '50 hortaliças: como comprar; conservar e consumir',
     author: 'Milza Moreira Lana; Selma Aparecida Tavares',
     edition: '-',
@@ -2313,7 +2320,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '226',
+    number: '227',
     title:
       'Yes, nós temos bananas: histórias e receitas com biomassa de banana verde',
     author: 'Heloisa de Freitas Valle',
@@ -2324,7 +2331,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '227',
+    number: '228',
     title: 'Regras da comida: um manual da sabedoria alimentar',
     author: 'Michael Pollan',
     edition: '-',
@@ -2334,7 +2341,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '228',
+    number: '229',
     title: 'Preserving food without freezing or canning',
     author: 'Centre Terre Vivante',
     edition: '-',
@@ -2344,7 +2351,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '229',
+    number: '230',
     title: 'Emergency food storage and survival handbook',
     author: 'Peggy Layton',
     edition: '-',
@@ -2354,7 +2361,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '230',
+    number: '231',
     title: 'Salvando o seu coração',
     author: 'Dean Ornish',
     edition: '1',
@@ -2364,7 +2371,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '231',
+    number: '232',
     title: 'Salvando o seu coração',
     author: 'Dean Ornish',
     edition: '2',
@@ -2374,7 +2381,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '232',
+    number: '233',
     title: 'A cura popular pela comida',
     author: 'Flávio Rotman',
     edition: '-',
@@ -2384,8 +2391,8 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '233',
-    title: 'Zinc and other micronutrients',
+    number: '234',
+    title: 'Zinc and other micro-nutrients',
     author: 'Carl C. Pfeiffer',
     edition: '-',
     volume: '-',
@@ -2394,7 +2401,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '234',
+    number: '235',
     title: 'Terapias nutricionais avançadas',
     author: 'Kenneth H. Cooper',
     edition: '-',
@@ -2404,7 +2411,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '235',
+    number: '236',
     title: 'Leite para adultos: mitos e fatos frente à ciência',
     author: 'Adriane Elisabete Costa Antunes',
     edition: '-',
@@ -2414,7 +2421,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '236',
+    number: '237',
     title: 'Coco: o milagre de uma gordura',
     author: 'Sérgio Puppin',
     edition: '-',
@@ -2423,19 +2430,14 @@ export const nutrition = [
     subject: 'Gordura vegetal; gordura do coco; receitas',
     note: '-',
   },
-
-  // ! LIVROS CATALOGADOS ATÉ O DIA 29/08/2022
-
   {
-    number: '237',
+    number: '238',
     title: 'Algas para mejorar la salud y vitalidad',
     author: 'Frank Wilson',
-    volume: '-',
     edition: '-',
+    volume: '-',
     publication_date: '1981',
     subject: 'Vegetais marinhos; valor nutricional; receitas',
     note: '-',
   },
-
-  // ! LIVROS CATALOGADOS ATÉ O DIA 01/09/2022
 ];

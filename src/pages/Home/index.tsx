@@ -17,10 +17,10 @@ import {
   Highlight,
 } from '@chakra-ui/react';
 
+import { HomeLink } from './link.home';
+
 import { general_medicine } from '../../data/general_medicine';
 import { nutrition } from '../../data/nutrition';
-
-import { HomeLink } from './link.home';
 import { ecology } from '../../data/ecology';
 import { pedagogy } from '../../data/pedagogy';
 
@@ -139,8 +139,8 @@ export const Home = () => {
         </Box>
         <Flex
           as='nav'
-          flexWrap='wrap'
-          justifyContent='center'
+          flexDirection='column'
+          alignContent='center'
           marginTop='20px'
           fontSize='lg'
         >

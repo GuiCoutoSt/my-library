@@ -49,19 +49,72 @@ export const Instructions = () => {
             Aqui você encontra as instruções necessárias para a utilização do{' '}
             <Text as='strong'>my library</Text>.
           </Text>
-          <Box as='nav' textTransform='uppercase' textAlign='center'>
-            <List as='ul'>
+
+          <Box
+            as='nav'
+            width='fit-content'
+            margin='0 auto'
+            marginTop='80px'
+            padding='20px'
+            border='1px solid'
+            borderRadius='5px'
+            borderColor='gray.200'
+            textTransform='uppercase'
+          >
+            <Text
+              as='h2'
+              marginBottom='15px'
+              fontSize='lg'
+              fontWeight='semibold'
+              textAlign='center'
+              textTransform='uppercase'
+            >
+              índice
+            </Text>
+            <List as='ul' color='blue.500'>
               <ListItem>
-                <Link href='#sections'>seções</Link>
+                <Link
+                  href='#sections'
+                  fontWeight='bold'
+                  fontStyle='italic'
+                  color='blue.500'
+                  _hover={{ textDecoration: 'underline', color: 'gray.500' }}
+                >
+                  seções
+                </Link>
               </ListItem>
               <ListItem>
-                <Link>entendendo os registros</Link>
+                <Link
+                  href='#registers'
+                  fontWeight='bold'
+                  fontStyle='italic'
+                  color='blue.500'
+                  _hover={{ textDecoration: 'underline', color: 'gray.500' }}
+                >
+                  entendendo os registros
+                </Link>
               </ListItem>
               <ListItem>
-                <Link>pesquisando</Link>
+                <Link
+                  href='#searching'
+                  fontWeight='bold'
+                  fontStyle='italic'
+                  color='blue.500'
+                  _hover={{ textDecoration: 'underline', color: 'gray.500' }}
+                >
+                  pesquisando
+                </Link>
               </ListItem>
               <ListItem>
-                <Link>localizando livros na biblioteca</Link>
+                <Link
+                  href='#fiding'
+                  fontWeight='bold'
+                  fontStyle='italic'
+                  color='blue.500'
+                  _hover={{ textDecoration: 'underline', color: 'gray.500' }}
+                >
+                  localizando livros na biblioteca
+                </Link>
               </ListItem>
             </List>
           </Box>
@@ -123,6 +176,7 @@ export const Instructions = () => {
 
         <Box margin='80px 0'>
           <Text
+            id='registers'
             width='fit-content'
             margin='30px 0 10px 0'
             fontSize='2xl'
@@ -391,6 +445,7 @@ export const Instructions = () => {
 
         <Box margin='80px 0'>
           <Text
+            id='searching'
             width='fit-content'
             margin='30px 0 10px 0'
             fontSize='2xl'
@@ -500,6 +555,7 @@ export const Instructions = () => {
 
         <Box margin='80px 0'>
           <Text
+            id='fiding'
             width='fit-content'
             margin='30px 0 10px 0'
             fontSize='2xl'
@@ -562,7 +618,7 @@ export const Instructions = () => {
               borderRadius='10px'
               textAlign='center'
             >
-              <Text marginBottom='5px'>0001</Text>
+              <Text marginBottom='5px'>1</Text>
               <Text>MEDICINA GERAL</Text>
             </Box>
           </Flex>

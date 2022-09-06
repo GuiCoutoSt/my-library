@@ -7,6 +7,7 @@ import { Switch, Route } from 'react-router-dom';
 
 import { Box, Flex } from '@chakra-ui/react';
 
+import { Contact } from './pages/Contact';
 import { Header } from './components/Header';
 import { Home } from './pages/Home';
 import { Instructions } from './pages/Instructions';
@@ -22,6 +23,8 @@ export const App = () => {
             <Route exact path='/' component={Home}></Route>
 
             <Route exact path='/instructions' component={Instructions} />
+
+            <Route exact path='/contact' component={Contact} />
 
             <Route exact path='/subject/ecology'>
               <SectionPage sessionName='Ecologia' data={ecology} />

@@ -397,4 +397,6 @@ export const pedagogy = [
     subject: 'Educação; crianças; pais e filhos',
     note: '-',
   },
+
+  // ! LIVROS CATALOGADOS ATÉ O DIA 01/09/2022
 ];

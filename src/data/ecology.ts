@@ -537,7 +537,7 @@ export const ecology = [
   },
   {
     number: '54',
-    title: 'Criação e vida de abelhas indígenas sem ferrão',
+    title: 'Vida e criação de abelhas indígenas sem ferrão',
     author: 'Paulo Nogueira Neto',
     edition: '-',
     volume: '-',
