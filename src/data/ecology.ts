@@ -701,4 +701,17 @@ export const ecology = [
   },
 
   // ! LIVROS CATALOGADOS ATÉ O DIA 01/09/2022
+
+  {
+    number: '70',
+    title: 'Unidade da vida',
+    author: 'Edson Hiroshi',
+    edition: '-',
+    volume: '-',
+    publication_date: '1997',
+    subject: 'Agricultura; plantio',
+    note: '-',
+  },
+
+  // ! LIVROS CATALOGADOS ATÉ O DIA 06/09/2022
 ];

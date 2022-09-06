@@ -18,14 +18,24 @@ import {
 } from '@chakra-ui/react';
 
 import { HomeLink } from './link.home';
-
-import { general_medicine } from '../../data/general_medicine';
-import { nutrition } from '../../data/nutrition';
 import { ecology } from '../../data/ecology';
+import { general_medicine } from '../../data/general_medicine';
+import { literature } from '../../data/literature';
+import { nutrition } from '../../data/nutrition';
 import { pedagogy } from '../../data/pedagogy';
+import { psicology } from '../../data/psicology';
+import { reference } from '../../data/reference';
 
 export const Home = () => {
-  let dataList = [ecology, general_medicine, nutrition, pedagogy];
+  let dataList = [
+    ecology,
+    literature,
+    general_medicine,
+    nutrition,
+    pedagogy,
+    psicology,
+    reference,
+  ];
 
   const booksSum = () => {
     let sum = 0;

@@ -2,6 +2,8 @@ import { ecology } from './data/ecology';
 import { general_medicine } from './data/general_medicine';
 import { nutrition } from './data/nutrition';
 import { pedagogy } from './data/pedagogy';
+import { psicology } from './data/psicology';
+import { reference } from './data/reference';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -12,6 +14,7 @@ import { Header } from './components/Header';
 import { Home } from './pages/Home';
 import { Instructions } from './pages/Instructions';
 import { SectionPage } from './components/SectionPage';
+import { literature } from './data/literature';
 
 export const App = () => {
   return (
@@ -27,22 +30,34 @@ export const App = () => {
             <Route exact path='/contact' component={Contact} />
 
             <Route exact path='/subject/ecology'>
-              <SectionPage sessionName='Ecologia' data={ecology} />
+              <SectionPage sectionName='Ecologia' data={ecology} />
+            </Route>
+
+            <Route exact path='/subject/literature'>
+              <SectionPage sectionName='Literatura' data={literature} />
             </Route>
 
             <Route exact path='/subject/general-medicine'>
               <SectionPage
-                sessionName='Medicina Geral'
+                sectionName='Medicina Geral'
                 data={general_medicine}
               />
             </Route>
 
             <Route exact path='/subject/nutrition'>
-              <SectionPage sessionName='Nutrição' data={nutrition} />
+              <SectionPage sectionName='Nutrição' data={nutrition} />
             </Route>
 
             <Route exact path='/subject/pedagogy'>
-              <SectionPage sessionName='Pedagogia' data={pedagogy} />
+              <SectionPage sectionName='Pedagogia' data={pedagogy} />
+            </Route>
+
+            <Route exact path='/subject/psicology'>
+              <SectionPage sectionName='Psicologia' data={psicology} />
+            </Route>
+
+            <Route exact path='/sunject/reference'>
+              <SectionPage sectionName='Referência' data={reference} />
             </Route>
           </Switch>
         </Box>

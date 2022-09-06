@@ -4,8 +4,12 @@ export const sectionsLink = [
     innerText: 'Ecologia',
   },
   {
-    url: '/subject/alternative-medicine',
-    innerText: 'Medicina Alternativa',
+    url: '/subject/literature',
+    innerText: 'Literatura',
+  },
+  {
+    url: '/subject/natural-medicine',
+    innerText: 'Medicina Natural',
   },
   {
     url: '/subject/general-medicine',
@@ -18,5 +22,13 @@ export const sectionsLink = [
   {
     url: 'subject/pedagogy',
     innerText: 'Pedagogia',
+  },
+  {
+    url: 'subject/psicology',
+    innerText: 'Psicologia',
+  },
+  {
+    url: 'subject/reference',
+    innerText: 'Referência',
   },
 ];

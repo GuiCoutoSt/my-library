@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import {
   Box,
@@ -24,11 +24,11 @@ type BookData = {
 };
 
 interface ISubjaectProps {
-  sessionName: string;
+  sectionName: string;
   data: BookData[];
 }
 
-export const SectionPage = ({ sessionName, data }: ISubjaectProps) => {
+export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
   const [search, setSearch] = useState('title');
   const [query, setQuery] = useState('');
 
@@ -42,12 +42,12 @@ export const SectionPage = ({ sessionName, data }: ISubjaectProps) => {
           textTransform='uppercase'
           color='blue.500'
         >
-          {sessionName}
+          {sectionName}
         </Text>
         <Text fontSize='lg' fontStyle='italic'>
           Aqui estão todos os livros relacionados à{' '}
           <Text as='strong' textTransform='uppercase' color='blue.500'>
-            {sessionName}
+            {sectionName}
           </Text>
           .
         </Text>
@@ -172,7 +172,7 @@ export const SectionPage = ({ sessionName, data }: ISubjaectProps) => {
                   >
                     <Text fontSize='3xl'>{item.number}</Text>
                     <Text fontSize='xl' textTransform='uppercase'>
-                      {sessionName}
+                      {sectionName}
                     </Text>
                   </Box>
                 </Flex>

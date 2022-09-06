@@ -7,10 +7,14 @@ import { HeaderLink } from './link.header';
 export const Header = () => {
   return (
     <Flex
+      width='100%'
       as='header'
       flexDirection='column'
       justifyContent='center'
       alignItems='center'
+      position='sticky'
+      top='0'
+      zIndex='10'
       fontSize='xl'
       fontWeight='light'
       color='blue.500'
@@ -24,7 +28,8 @@ export const Header = () => {
         width='100%'
         maxWidth='1024px'
         justifyContent='space-around'
-        marginTop='10px'
+        padding='10px 0'
+        backgroundColor='white'
       >
         <Flex alignContent='center'>
           <Text

@@ -958,4 +958,47 @@ export const general_medicine = [
     subject: 'Medicina nutricional; fundamentos ',
     note: '-',
   },
+  {
+    number: '95',
+    title:
+      'Dr. Cabelo: saiba tudo sobre os cabelos: estética, recuperação capilar e prevenção da calvíce',
+    author: 'Luciano Barsanti',
+    edition: '-',
+    volume: '-',
+    publication_date: '2009',
+    subject: 'Cuidados; higiene; doenças',
+    note: '-',
+  },
+  {
+    number: '96',
+    title: 'Analytical repertory of the symptoms of the mind',
+    author: 'C. Hering',
+    edition: '2',
+    volume: '-',
+    publication_date: '1983',
+    subject: 'Doenças; mente humana; tratamento ',
+    note: '-',
+  },
+  {
+    number: '97',
+    title: 'Drogas psicotrópicas e seu modo de ação',
+    author: 'Frederico G. Graeff',
+    edition: '2',
+    volume: '-',
+    publication_date: '1989',
+    subject: 'Efeitos colaterais; cérebro; sistema nervoso central',
+    note: '-',
+  },
+  {
+    number: '98',
+    title: 'Enfermedades del aparato respiratorio: causas, sintomas, curacion',
+    author: 'José O. Avila Montesó ',
+    edition: '-',
+    volume: '-',
+    publication_date: '1972',
+    subject: 'Doenças; sistema respiratório; sintomas',
+    note: '-',
+  },
+
+  // ! LIVROS CATALOGADOS ATÉ O DIA 06/09/2022
 ];
