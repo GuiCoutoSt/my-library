@@ -1050,7 +1050,7 @@ export const ecology = [
   },
   {
     number: '104',
-    title: 'Agrobiodiversidade: agroindústria familiar de base ecológica',
+    title: 'Agrosociobiodiversidade: agroindústria familiar de base ecológica',
     author: 'Centro Ecológico',
     edition: '-',
     volume: '-',
