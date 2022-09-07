@@ -26,6 +26,7 @@ export const Header = () => {
       ></Box>
       <Flex
         width='100%'
+        height='fit-content'
         maxWidth='1024px'
         justifyContent='space-around'
         padding='10px 0'

@@ -36,50 +36,51 @@ export const Contact = () => {
             </Text>{' '}
             entre em contato conosco através dos canais:
           </Text>
-
-          <Flex
-            flexDirection='column'
-            margin='80px 0 20px 0'
-            position='relative'
-            padding='20px'
-            border='1px solid'
-            borderColor='gray.200'
-            borderRadius='5px'
-            textAlign='left'
-          >
-            <Text fontSize='xl' fontWeight='semibold'>
-              WhatsApp
-            </Text>
-            <Text id='wpp-copy'>(61) 98234-2442</Text>
-            <CopyButton elementId='wpp-copy' />
-
-            <Link
-              href='https://wa.me/5561982342442'
-              target='_blank'
-              marginTop='10px'
-              display='block'
-              fontSize='sm'
-              fontStyle='italic'
-              color='blue.500'
+          <Box margin='80px 0'>
+            <Flex
+              flexDirection='column'
+              marginBottom='20px'
+              position='relative'
+              padding='20px'
+              border='1px solid'
+              borderColor='gray.200'
+              borderRadius='5px'
+              textAlign='left'
             >
-              Clique aqui para abrir o <Text as='strong'>WhatsApp</Text>
-            </Link>
-          </Flex>
-          <Flex
-            flexDirection='column'
-            position='relative'
-            padding='20px'
-            border='1px solid'
-            borderColor='gray.200'
-            borderRadius='5px'
-            textAlign='left'
-          >
-            <Text fontSize='xl' fontWeight='semibold'>
-              Email
-            </Text>
-            <Text id='email-copy'>gcoutos95@gmail.com</Text>
-            <CopyButton elementId='email-copy' />
-          </Flex>
+              <Text fontSize='xl' fontWeight='semibold'>
+                WhatsApp
+              </Text>
+              <Text id='wpp-copy'>(61) 98234-2442</Text>
+              <CopyButton elementId='wpp-copy' />
+
+              <Link
+                href='https://wa.me/5561982342442'
+                target='_blank'
+                marginTop='10px'
+                display='block'
+                fontSize='sm'
+                fontStyle='italic'
+                color='blue.500'
+              >
+                Clique aqui para abrir o <Text as='strong'>WhatsApp</Text>
+              </Link>
+            </Flex>
+            <Flex
+              flexDirection='column'
+              position='relative'
+              padding='20px'
+              border='1px solid'
+              borderColor='gray.200'
+              borderRadius='5px'
+              textAlign='left'
+            >
+              <Text fontSize='xl' fontWeight='semibold'>
+                Email
+              </Text>
+              <Text id='email-copy'>gcoutos95@gmail.com</Text>
+              <CopyButton elementId='email-copy' />
+            </Flex>
+          </Box>
         </Box>
       </Box>
     </Flex>
