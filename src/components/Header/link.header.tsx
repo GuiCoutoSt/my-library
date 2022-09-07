@@ -12,6 +12,7 @@ export const HeaderLink = ({ url, innerText }: IHeaderLink) => {
     <Link
       as={RouterDom}
       to={url}
+      height='fit-content'
       padding='0 2px'
       borderRadius='5px'
       _hover={{
