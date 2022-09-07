@@ -25,11 +25,13 @@ import { nutrition } from '../../data/nutrition';
 import { pedagogy } from '../../data/pedagogy';
 import { psicology } from '../../data/psicology';
 import { reference } from '../../data/reference';
+import { childrens_literature } from '../../data/childrens_literature';
 
 export const Home = () => {
   let dataList = [
     ecology,
     literature,
+    childrens_literature,
     general_medicine,
     nutrition,
     pedagogy,

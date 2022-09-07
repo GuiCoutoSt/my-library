@@ -29,6 +29,11 @@ export const CopyButton = ({ elementId }: ICopyButtonProps) => {
       right='0'
       fontSize='sm'
       textTransform='uppercase'
+      backgroundColor='green.300'
+      color='white'
+      _hover={{
+        backgroundColor: 'green.500',
+      }}
     >
       {copyButton} <CopyIcon marginLeft='5px' />
     </Button>

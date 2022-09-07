@@ -8,12 +8,16 @@ export const sectionsLink = [
     innerText: 'Literatura',
   },
   {
-    url: '/subject/natural-medicine',
-    innerText: 'Medicina Natural',
+    url: '/subject/childrens-literature',
+    innerText: 'Literatura Infantil',
   },
   {
     url: '/subject/general-medicine',
-    innerText: 'Medicina Geral',
+    innerText: 'Medicina (Geral)',
+  },
+  {
+    url: '/subject/natural-medicine',
+    innerText: 'Medicina (Natural)',
   },
   {
     url: '/subject/nutrition',

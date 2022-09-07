@@ -39,7 +39,7 @@ export const Searcher = ({ search, setSearch, query, setQuery }: ISearcher) => {
             borderRadius='5px'
             fontSize='lg'
             textTransform='uppercase'
-            backgroundColor='blue.400'
+            backgroundColor='blue.300'
             color='white'
           >
             {defineSearchType(search)}

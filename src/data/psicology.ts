@@ -341,5 +341,5 @@ export const psicology = [
     note: '-',
   },
 
-  // ! LIVROS CATALOGADOS ATÉ O DIA 06/09/2022
+  // ! DADOS CADASTRADOS ATÉ O DIA 07/09/2022
 ];

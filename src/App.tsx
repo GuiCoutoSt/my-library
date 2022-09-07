@@ -15,6 +15,7 @@ import { Home } from './pages/Home';
 import { Instructions } from './pages/Instructions';
 import { SectionPage } from './components/SectionPage';
 import { literature } from './data/literature';
+import { childrens_literature } from './data/childrens_literature';
 
 export const App = () => {
   return (
@@ -35,6 +36,13 @@ export const App = () => {
 
             <Route exact path='/subject/literature'>
               <SectionPage sectionName='Literatura' data={literature} />
+            </Route>
+
+            <Route exact path='/subject/childrens-literature'>
+              <SectionPage
+                sectionName='Literatura Infantil'
+                data={childrens_literature}
+              />
             </Route>
 
             <Route exact path='/subject/general-medicine'>

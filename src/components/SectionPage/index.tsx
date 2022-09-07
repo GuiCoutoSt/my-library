@@ -40,13 +40,13 @@ export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
           fontSize='5xl'
           fontWeight='bold'
           textTransform='uppercase'
-          color='blue.500'
+          color='blue.300'
         >
           {sectionName}
         </Text>
         <Text fontSize='lg' fontStyle='italic'>
           Aqui estão todos os livros relacionados à{' '}
-          <Text as='strong' textTransform='uppercase' color='blue.500'>
+          <Text as='strong' textTransform='uppercase' color='blue.300'>
             {sectionName}
           </Text>
           .
@@ -78,7 +78,7 @@ export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
       <Flex justifyContent='center'>
         <Box
           width='650px'
-          height='600px'
+          height='700px'
           overflowY='scroll'
           __css={{
             '&::-webkit-scrollbar': {
@@ -166,7 +166,7 @@ export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
                     padding='10px 0'
                     borderBottomRadius='8px'
                     textAlign='center'
-                    backgroundColor='blue.400'
+                    backgroundColor='blue.300'
                     color='white'
                     fontWeight='bold'
                   >

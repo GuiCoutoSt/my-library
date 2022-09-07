@@ -924,7 +924,7 @@ export const nutrition = [
     edition: '-',
     volume: '-',
     publication_date: '2010',
-    subject: 'Alergias; gluten; receitas; hábitos alimentares',
+    subject: 'Alergias; glúten; receitas; hábitos alimentares',
     note: '-',
   },
   {
@@ -934,7 +934,7 @@ export const nutrition = [
     edition: '-',
     volume: '-',
     publication_date: '2010',
-    subject: 'Alergias; gluten; receitas; hábitos alimentares',
+    subject: 'Alergias; glúten; receitas; hábitos alimentares',
     note: '-',
   },
   {
@@ -2092,7 +2092,7 @@ export const nutrition = [
     edition: '-',
     volume: '-',
     publication_date: '2013',
-    subject: 'Gluten; dieta sem trigo; dieta sem gluten; emagrecimento',
+    subject: 'Gluten; dieta sem trigo; dieta sem glúten; emagrecimento',
     note: '-',
   },
   {
@@ -2138,7 +2138,7 @@ export const nutrition = [
   {
     number: '209',
     title:
-      'The 150 healthiest foods on earth: the surprisenig, unbiased truth about what you should eat and why',
+      'The 150 healthiest foods on earth: the surprising, unbiased truth about what you should eat and why',
     author: 'Jonny Bowden',
     edition: '-',
     volume: '-',
@@ -2173,7 +2173,7 @@ export const nutrition = [
     edition: '-',
     volume: '-',
     publication_date: '2004',
-    subject: 'Gluten; receitas sem trigo; receitas sem gluten',
+    subject: 'Glúten; receitas sem trigo; receitas sem gluten',
     note: '-',
   },
   {
@@ -2183,39 +2183,39 @@ export const nutrition = [
     edition: '-',
     volume: '-',
     publication_date: '2014',
-    subject: 'Hipersensibilidade ao gluten; gluten; doença celíaca',
+    subject: 'Hipersensibilidade ao glúten; glúten; doença celíaca',
     note: '-',
   },
   {
     number: '214',
-    title: 'Sem gluten',
+    title: 'Sem glúten',
     author: 'Lorete Maria da Silva Kotze',
     edition: '-',
     volume: '-',
     publication_date: '2001',
-    subject: 'Gluten; receitas sem trigo; receitas sem gluten',
+    subject: 'Glúten; receitas sem trigo; receitas sem gluten',
     note: '-',
   },
   {
     number: '215',
-    title: 'Gluten freedom',
+    title: 'Glúten freedom',
     author: 'Alessio Fasano',
     edition: '-',
     volume: '-',
     publication_date: '2014',
     subject:
-      'Gluten; receitas sem trigo; receitas sem gluten; dieta sem gluten',
+      'Gluten; receitas sem trigo; receitas sem gluten; dieta sem glúten',
     note: '-',
   },
   {
     number: '216',
-    title: 'Dieta sem gluten: um guia essencial para uma vida saudável',
+    title: 'Dieta sem glúten: um guia essencial para uma vida saudável',
     author: 'Alessio Fasano',
     edition: '-',
     volume: '-',
     publication_date: '2015',
     subject:
-      'Gluten; receitas sem trigo; receitas sem gluten; dieta sem gluten',
+      'Gluten; receitas sem trigo; receitas sem gluten; dieta sem glúten',
     note: '-',
   },
   {
@@ -2392,16 +2392,6 @@ export const nutrition = [
   },
   {
     number: '234',
-    title: 'Zinc and other micro-nutrients',
-    author: 'Carl C. Pfeiffer',
-    edition: '-',
-    volume: '-',
-    publication_date: '1978',
-    subject: 'Zinco; minerais; micronutrientes',
-    note: '-',
-  },
-  {
-    number: '235',
     title: 'Terapias nutricionais avançadas',
     author: 'Kenneth H. Cooper',
     edition: '-',
@@ -2411,7 +2401,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '236',
+    number: '235',
     title: 'Leite para adultos: mitos e fatos frente à ciência',
     author: 'Adriane Elisabete Costa Antunes',
     edition: '-',
@@ -2421,7 +2411,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '237',
+    number: '236',
     title: 'Coco: o milagre de uma gordura',
     author: 'Sérgio Puppin',
     edition: '-',
@@ -2431,7 +2421,7 @@ export const nutrition = [
     note: '-',
   },
   {
-    number: '238',
+    number: '237',
     title: 'Algas para mejorar la salud y vitalidad',
     author: 'Frank Wilson',
     edition: '-',
@@ -2440,4 +2430,16 @@ export const nutrition = [
     subject: 'Vegetais marinhos; valor nutricional; receitas',
     note: '-',
   },
+  {
+    number: '238',
+    title: 'Guia prático de nutrição - sucos: fonte natural de energia e saúde',
+    author: 'Polishop',
+    edition: '-',
+    volume: '-',
+    publication_date: '2007',
+    subject: 'Vitaminas; minerais; receitas',
+    note: '-',
+  },
+
+  // ! DADOS ADICIONADOS ATÉ O DIA 07/09/2022
 ];
