@@ -47,7 +47,10 @@ export const Instructions = () => {
           </Flex>
           <Text fontSize='xl'>
             Aqui você encontra as instruções necessárias para a utilização do{' '}
-            <Text as='strong'>my library</Text>.
+            <Text as='strong' fontStyle='italic'>
+              my library
+            </Text>
+            .
           </Text>
 
           <Box
@@ -120,9 +123,8 @@ export const Instructions = () => {
           </Box>
         </Box>
 
-        <Box margin='80px 0'>
+        <Box id='sections' padding='80px 0'>
           <Text
-            id='sections'
             width='fit-content'
             margin='30px 0 10px 0'
             fontSize='2xl'
@@ -174,9 +176,8 @@ export const Instructions = () => {
           </Flex>
         </Box>
 
-        <Box margin='80px 0'>
+        <Box id='registers' padding='80px 0'>
           <Text
-            id='registers'
             width='fit-content'
             margin='30px 0 10px 0'
             fontSize='2xl'
@@ -443,9 +444,8 @@ export const Instructions = () => {
           </Flex>
         </Box>
 
-        <Box margin='80px 0'>
+        <Box id='searching' padding='80px 0'>
           <Text
-            id='searching'
             width='fit-content'
             margin='30px 0 10px 0'
             fontSize='2xl'
@@ -553,9 +553,8 @@ export const Instructions = () => {
           />
         </Box>
 
-        <Box margin='80px 0'>
+        <Box id='fiding' padding='80px 0'>
           <Text
-            id='fiding'
             width='fit-content'
             margin='30px 0 10px 0'
             fontSize='2xl'

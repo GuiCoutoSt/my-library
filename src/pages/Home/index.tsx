@@ -75,9 +75,12 @@ export const Home = () => {
             />
           </Flex>
           <Text fontSize='xl'>
-            Seja bem-vindo ao <Text as='strong'>my library</Text>! Aqui você tem
-            acesso aos livros de sua biblioteca. Para acessar as intruções de
-            uso vá até a aba{' '}
+            Seja bem-vindo ao{' '}
+            <Text as='strong' fontStyle='italic'>
+              my library
+            </Text>
+            ! Aqui você tem acesso aos livros de sua biblioteca. Para acessar as
+            intruções de uso vá até a aba{' '}
             <Link
               as={RouterDom}
               to='/instructions'

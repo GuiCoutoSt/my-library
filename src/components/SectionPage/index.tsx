@@ -82,19 +82,21 @@ export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
           overflowY='scroll'
           __css={{
             '&::-webkit-scrollbar': {
-              width: '5px',
+              width: '10px',
             },
 
             '&::-webkit-scrollbar-track': {
-              background: 'blue.50',
+              background: 'gray.100',
             },
 
             '&::-webkit-scrollbar-thumb': {
-              background: 'blue.200',
+              borderRadius: '5px',
+              background: 'gray.300',
             },
 
             '&::-webkit-scrollbar-thumb:hover': {
-              background: '#555',
+              cursor: 'pointer',
+              background: 'gray.500',
             },
           }}
         >
