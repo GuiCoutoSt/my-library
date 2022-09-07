@@ -41,12 +41,7 @@ export const Header = () => {
           >
             my library
           </Text>
-          <Image
-            src={F4D5}
-            draggable='false'
-            width='30px'
-            height='fit-content'
-          />
+          <Image src={F4D5} draggable='false' width='30px' />
         </Flex>
         <HeaderLink url='/' innerText='home' />
         <HeaderLink url='/instructions' innerText='instruções' />
