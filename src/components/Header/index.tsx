@@ -32,7 +32,7 @@ export const Header = () => {
         padding='10px 0'
         backgroundColor='white'
       >
-        <Flex alignContent='center'>
+        <Flex alignContent='center' height='fit-content'>
           <Text
             height='fit-content'
             marginRight='5px'
