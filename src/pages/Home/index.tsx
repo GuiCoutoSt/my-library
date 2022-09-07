@@ -79,8 +79,8 @@ export const Home = () => {
             <Text as='strong' fontStyle='italic'>
               my library
             </Text>
-            ! Aqui você tem acesso aos livros de sua biblioteca. Para acessar as
-            intruções de uso vá até a aba{' '}
+            ! Aqui você tem acesso aos registros dos livros em sua biblioteca.
+            Para acessar as intruções de uso vá até a aba{' '}
             <Link
               as={RouterDom}
               to='/instructions'
