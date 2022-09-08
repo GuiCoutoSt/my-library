@@ -344,12 +344,12 @@ export const ecology = [
   },
   {
     number: '35',
-    title: 'É fácil criar tilápias',
-    author: 'Kendji Yamoto',
+    title: 'Cooperativismo: primeiras lições',
+    author: 'SESCOOP',
     edition: '-',
     volume: '-',
     publication_date: '-',
-    subject: 'Tilápia; criação',
+    subject: 'Cooperativismo',
     note: '-',
   },
   {
