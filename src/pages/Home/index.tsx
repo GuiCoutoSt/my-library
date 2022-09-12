@@ -1,7 +1,5 @@
 import { Link as RouterDom } from 'react-router-dom';
 
-import { sectionsLink } from '../../data/sectionsLink';
-
 import F4D5 from '../../assets/images/1F4D5.svg';
 
 import {
@@ -18,33 +16,15 @@ import {
 } from '@chakra-ui/react';
 
 import { HomeLink } from './link.home';
-import { ecology } from '../../data/ecology';
-import { general_medicine } from '../../data/general_medicine';
-import { literature } from '../../data/literature';
-import { nutrition } from '../../data/nutrition';
-import { pedagogy } from '../../data/pedagogy';
-import { psicology } from '../../data/psicology';
-import { reference } from '../../data/reference';
-import { childrens_literature } from '../../data/childrens_literature';
+
+import { sectionsLink } from '../../data/sectionsLink';
 
 export const Home = () => {
-  let dataList = [
-    ecology,
-    literature,
-    childrens_literature,
-    general_medicine,
-    nutrition,
-    pedagogy,
-    psicology,
-    reference,
-  ];
-
   const booksSum = () => {
-    let sum = 0;
-
-    for (let i = 0; i < dataList.length; i++) {
-      sum += dataList[i].length;
-    }
+    let sum = sectionsLink.reduce(
+      (previousValue, item) => previousValue + item.data.length,
+      0
+    );
 
     return sum;
   };

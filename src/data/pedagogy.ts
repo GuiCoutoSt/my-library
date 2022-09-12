@@ -637,4 +637,14 @@ export const pedagogy = [
     subject: 'Educação ambiental; finalidades; interdisciplinaridade',
     note: '-',
   },
+  {
+    number: '63',
+    title: 'No lo tires, !Juega!: juguetes con materiales usados',
+    author: 'Albert Martínez',
+    edition: '-',
+    volume: '-',
+    publication_date: '1998',
+    subject: 'Resíduos; reciclagem; atividades pedagógicas',
+    note: '-',
+  },
 ];

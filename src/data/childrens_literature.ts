@@ -374,6 +374,16 @@ export const childrens_literature = [
   },
   {
     number: '38',
+    title: 'As 200 melhores adivinhas para crianças',
+    author: 'Paulo Tadeu',
+    edition: '-',
+    volume: '-',
+    publication_date: '2008',
+    subject: 'Literatura infanto-juvenil; charadas; adivinhações',
+    note: '-',
+  },
+  {
+    number: '39',
     title: 'A ilha do tesouro',
     author: 'Robert L. Stevenson ',
     edition: '-',
@@ -383,7 +393,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '39',
+    number: '40',
     title: 'Vamos brincar com as palavras?',
     author: 'Lúcia Pimentel Góes',
     edition: '-',
@@ -393,7 +403,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '40',
+    number: '41',
     title:
       'A história do seu João das alfaces: uma introdução à agricultura orgânica',
     author: 'Adriana Maria de Aquino; Maria Cristina P. Neves',
@@ -404,7 +414,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '41',
+    number: '42',
     title:
       'História e histórias: guia do usuário do programa Nacional Biblioteca da Escola',
     author: 'Secretária de Educação Fundamental',
@@ -415,7 +425,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '42',
+    number: '43',
     title: 'Aracuco: esperança da nação indígena',
     author: 'Railda Ribeiro Martins ',
     edition: '2',
@@ -425,7 +435,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '43',
+    number: '44',
     title: 'A aventura da física',
     author: 'Roberto Pimentel ',
     edition: '-',
@@ -435,7 +445,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '44',
+    number: '45',
     title: 'Aventura no Mar de Dentro',
     author: 'Maria Emilia Kubrusly',
     edition: '-',
@@ -445,7 +455,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '45',
+    number: '46',
     title: 'Velha tartaruga',
     author: 'Douglas Wood',
     edition: '-',
@@ -455,7 +465,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '46',
+    number: '47',
     title: 'Blooming Thoughts',
     author: 'Ana Carolina Cavalcante',
     edition: '-',
@@ -465,7 +475,7 @@ export const childrens_literature = [
     note: 'Livro feito pela neta do Sr. Edison',
   },
   {
-    number: '47',
+    number: '48',
     title: 'Juju na cozinha do Carlota: 29 receitas muito fáceis para crianças',
     author: 'Carla Pernambuco; Pinky Wainer',
     edition: '-',
@@ -475,7 +485,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '48',
+    number: '49',
     title: 'Folclore & companhia',
     author: 'Robson Alves dos Santos; Marcia Maria Villanacci Braga',
     edition: '-',
@@ -485,7 +495,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '49',
+    number: '50',
     title: 'Fábulas de esopo',
     author: 'Russell Ash; Bernard Higton ',
     edition: '-',
@@ -495,7 +505,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '50',
+    number: '51',
     title: 'Escrevendo como gente grande',
     author: 'Isabela',
     edition: '-',
@@ -505,7 +515,7 @@ export const childrens_literature = [
     note: 'O livro possui um conto escrito pela neta do Sr. Edison',
   },
   {
-    number: '51',
+    number: '52',
     title: 'Nossa vida em casa',
     author: 'Michele Kahn; Michele Trumel',
     edition: '-',
@@ -515,7 +525,7 @@ export const childrens_literature = [
     note: '-',
   },
   {
-    number: '52',
+    number: '53',
     title: 'Super eco ',
     author: '-',
     edition: '-',
@@ -524,6 +534,4 @@ export const childrens_literature = [
     subject: 'Literatura infanto-juvenil; meio ambiente; educação ambiental',
     note: '-',
   },
-
-  // ! DADOS ADICIONADOS ATÉ O DIA 07/09/2022
 ];
