@@ -169,10 +169,7 @@ export const Instructions = () => {
             marginTop='20px'
             fontSize='lg'
           >
-            <HomeLink
-              url='/subject/general-medicine'
-              innerText='Medicina Geral'
-            />
+            <HomeLink url='/subject/general-medicine' innerText='Medicina' />
           </Flex>
         </Box>
 
@@ -251,7 +248,7 @@ export const Instructions = () => {
               fontWeight='bold'
             >
               <Text fontSize='3xl'>{1}</Text>
-              <Text fontSize='xl'>{'MEDICINA GERAL'}</Text>
+              <Text fontSize='xl'>{'MEDICINA'}</Text>
             </Box>
           </Flex>
           <Flex
@@ -611,14 +608,15 @@ export const Instructions = () => {
 
           <Flex justifyContent='center' fontFamily='monospace' fontSize='xl'>
             <Box
+              width='300px'
               padding='20px'
               border='1px solid'
               borderColor='gray.200'
               borderRadius='10px'
               textAlign='center'
             >
-              <Text marginBottom='5px'>1</Text>
-              <Text>MEDICINA GERAL</Text>
+              <Text marginBottom='2px'>1</Text>
+              <Text>MEDICINA</Text>
             </Box>
           </Flex>
         </Box>

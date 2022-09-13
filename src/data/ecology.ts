@@ -1967,7 +1967,7 @@ export const ecology = [
   },
   {
     number: '194',
-    title: 'Sinais do mundi 2001',
+    title: 'Sinais do mundo 2001',
     author: 'Lester R. Brown',
     edition: '-',
     volume: '-',

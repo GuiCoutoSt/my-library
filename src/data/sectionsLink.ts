@@ -43,7 +43,7 @@ export const sectionsLink = [
   },
   {
     url: '/subject/general-medicine',
-    innerText: 'Medicina (Geral)',
+    innerText: 'Medicina',
     data: general_medicine,
   },
 
