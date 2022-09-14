@@ -132,4 +132,36 @@ export const filosofy = [
     subject: 'Pensamento crítico; pseudocientífico',
     note: '-',
   },
+  {
+    number: '14',
+    title:
+      'Estratégia e liderança: as lições dos mestres chineses na visão de um ocidental',
+    author: 'Thomas Cleary',
+    edition: '-',
+    volume: '-',
+    publication_date: '1994',
+    subject: 'Taoísmo; filosofia chinesa',
+    note: '-',
+  },
+  {
+    number: '15',
+    title: 'O ócio criativo: entrevista a Maria Serena Palieri',
+    author: 'Domenico de Masi',
+    edition: '-',
+    volume: '-',
+    publication_date: '2000',
+    subject:
+      'Criatividade nos negócios; sociedade pós-industrial; globalização',
+    note: '-',
+  },
+  {
+    number: '16',
+    title: 'Novos horizontes no estudo da linguagem e da mente',
+    author: 'Noam Chomsky',
+    edition: '-',
+    volume: '-',
+    publication_date: '2005',
+    subject: 'Filosofia da mente; linguagem e línguas',
+    note: '-',
+  },
 ];
