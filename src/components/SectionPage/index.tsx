@@ -68,6 +68,29 @@ export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
             Número de livros cadastrados nesse assunto
           </StatHelpText>
         </Stat>
+        <Flex flexDirection='column' alignItems='center'>
+          <Text
+            marginBottom='10px'
+            fontSize='md'
+            fontStyle='italic'
+            color='red.500'
+          >
+            * Exemplo de etiqueta *{' '}
+          </Text>
+          <Box
+            width='300px'
+            padding='20px'
+            border='1px solid'
+            borderColor='gray.200'
+            borderRadius='10px'
+            fontFamily='monospace'
+            fontSize='xl'
+            textAlign='center'
+          >
+            <Text marginBottom='2px'>1</Text>
+            <Text>{sectionName}</Text>
+          </Box>
+        </Flex>
       </Box>
       <Searcher
         search={search}
@@ -79,6 +102,7 @@ export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
         <Box
           width='650px'
           height='700px'
+          scrollBehavior='smooth'
           overflowY='scroll'
           __css={{
             '&::-webkit-scrollbar': {

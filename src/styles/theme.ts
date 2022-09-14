@@ -24,6 +24,7 @@ export const theme = extendTheme({
     global: {
       html: {
         height: '100%',
+        scrollBehavior: 'smooth',
       },
       body: {
         height: '100%',
