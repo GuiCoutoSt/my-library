@@ -457,4 +457,26 @@ export const history = [
     subject: 'Histórico; pré-histórico',
     note: '-',
   },
+  {
+    number: '46',
+    title: 'Alcuino de York',
+    author: 'Rubén A. Peretó',
+    edition: '-',
+    volume: '-',
+    publication_date: '2004',
+    subject: 'Império carolino; renascimento carolino',
+    note: '-',
+  },
+  {
+    number: '47',
+    title: 'O hebraísta no trono do Brasil: imperador D. Pedro II',
+    author: 'Kurt Loewenstamm',
+    edition: '-',
+    volume: '-',
+    publication_date: '2002',
+    subject: 'Império; judaismo',
+    note: '-',
+  },
+
+  // ! DADOS ADICIONADOS ATÉ O DIA 20/09/2022
 ];

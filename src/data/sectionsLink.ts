@@ -1,7 +1,6 @@
 import { childrens_literature } from './childrens_literature';
 import { ecology } from './ecology';
 import { economy } from './economy';
-import { filosofy } from './filosofy';
 import { general_medicine } from './general_medicine';
 import { history } from './history';
 import { literature } from './literature';
@@ -9,8 +8,15 @@ import { nutrition } from './nutrition';
 import { pedagogy } from './pedagogy';
 import { psicology } from './psicology';
 import { reference } from './reference';
+import { religion } from './religion';
+import { social_sciences } from './social_sciences';
 
 export const sectionsLink = [
+  {
+    url: '/subject/social-sciences',
+    innerText: 'Ciências Sociais',
+    data: social_sciences,
+  },
   {
     url: '/subject/ecology',
     innerText: 'Ecologia',
@@ -20,11 +26,6 @@ export const sectionsLink = [
     url: '/subject/economy',
     innerText: 'Economia',
     data: economy,
-  },
-  {
-    url: '/subject/filosofy',
-    innerText: 'Filosofia',
-    data: filosofy,
   },
   {
     url: '/subject/history',
@@ -66,5 +67,10 @@ export const sectionsLink = [
     url: '/subject/reference',
     innerText: 'Referência',
     data: reference,
+  },
+  {
+    url: '/subject/religion',
+    innerText: 'Religião',
+    data: religion,
   },
 ];
