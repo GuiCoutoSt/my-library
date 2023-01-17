@@ -1,0 +1,32 @@
+export const law = [
+  {
+    number: '1',
+    title: 'Curso de direito constitucional',
+    author: 'Manoel Gonçalves Filho',
+    edition: '-',
+    volume: '-',
+    publication_date: '2008',
+    subject: 'Direito constitucional',
+    note: '-',
+  },
+  {
+    number: '2',
+    title: 'Constituição de 1988',
+    author: 'Presidência da República',
+    edition: '-',
+    volume: '-',
+    publication_date: '1988',
+    subject: 'Constiuição federal',
+    note: '-',
+  },
+  {
+    number: '3',
+    title: 'Direito constitucional descomplicado',
+    author: 'Vicente Paulo',
+    edition: '-',
+    volume: '-',
+    publication_date: '2018',
+    subject: 'Direito constitucional',
+    note: '-',
+  },
+];

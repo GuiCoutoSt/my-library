@@ -17,7 +17,7 @@ import {
 
 import { HomeLink } from './link.home';
 
-import { sectionsLink } from '../../data/sectionsLink';
+import { sectionsLink } from '../../utils/sectionsLink';
 
 export const Home = () => {
   const booksSum = () => {

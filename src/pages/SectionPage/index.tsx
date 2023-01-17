@@ -10,7 +10,7 @@ import {
   Text,
 } from '@chakra-ui/react';
 
-import { Searcher } from '../Searcher';
+import { Searcher } from '../../components/Searcher';
 
 type BookData = {
   number: string;

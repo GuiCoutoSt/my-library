@@ -1,4 +1,4 @@
-import { sectionsLink } from './data/sectionsLink';
+import { sectionsLink } from './utils/sectionsLink';
 
 import { Switch, Route } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ import { Contact } from './pages/Contact';
 import { Header } from './components/Header';
 import { Home } from './pages/Home';
 import { Instructions } from './pages/Instructions';
-import { SectionPage } from './components/SectionPage';
+import { SectionPage } from './pages/SectionPage';
 
 export const App = () => {
   return (
@@ -23,8 +23,13 @@ export const App = () => {
 
             <Route exact path='/contact' component={Contact} />
             {sectionsLink.map((item) => {
+              try {
+                console.log('foi');
+              } catch (err) {
+                console.log(item.data);
+              }
               return (
-                <Route exact path={item.url}>
+                <Route exact path={`/subject/${item.url}`}>
                   <SectionPage sectionName={item.innerText} data={item.data} />
                 </Route>
               );

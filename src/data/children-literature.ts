@@ -1,4 +1,4 @@
-export const childrens_literature = [
+export const children_literature = [
   {
     number: '1',
     title: 'O fantástico corpo humano',
@@ -532,6 +532,46 @@ export const childrens_literature = [
     volume: '-',
     publication_date: '-',
     subject: 'Literatura infanto-juvenil; meio ambiente; educação ambiental',
+    note: '-',
+  },
+  {
+    number: '54',
+    title: 'O fabuloso livro amarelo',
+    author: 'Andrew Lang',
+    edition: '-',
+    volume: 'V.1',
+    publication_date: '2020',
+    subject: 'Contos de fadas',
+    note: '-',
+  },
+  {
+    number: '55',
+    title: 'O fabuloso livro verde',
+    author: 'Andrew Lang',
+    edition: '-',
+    volume: 'V.3',
+    publication_date: '2018',
+    subject: 'Contos de fadas',
+    note: '-',
+  },
+  {
+    number: '56',
+    title: 'Um mundo de crianças',
+    author: 'Ana Busch',
+    edition: '-',
+    volume: '-',
+    publication_date: '2007',
+    subject: 'Literatura infanto-juvenil',
+    note: '-',
+  },
+  {
+    number: '57',
+    title: 'Aventura no rio escuro',
+    author: 'Charles Kiefer',
+    edition: '-',
+    volume: '-',
+    publication_date: '2008',
+    subject: 'Literatura infanto-juvenil',
     note: '-',
   },
 ];
