@@ -54,7 +54,7 @@ export const Home = () => {
               height='fit-content'
             />
           </Flex>
-          <Text fontSize='xl'>
+          <Text fontSize='xl' textAlign='left'>
             Seja bem-vindo ao{' '}
             <Text as='strong' fontStyle='italic'>
               my library
@@ -134,14 +134,18 @@ export const Home = () => {
         </Box>
         <Flex
           as='nav'
-          flexDirection='column'
-          alignContent='center'
-          marginTop='20px'
+          flexDirection='row'
+          flexWrap='wrap'
+          margin='20px 0'
           fontSize='lg'
         >
           {sectionsLink.map((item, index) => {
             return (
-              <HomeLink key={index} url={item.url} innerText={item.innerText} />
+              <HomeLink
+                key={index}
+                url={`/subject/${item.url}`}
+                innerText={item.innerText}
+              />
             );
           })}
         </Flex>

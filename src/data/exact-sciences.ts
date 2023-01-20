@@ -1,4 +1,4 @@
-export const exactSciences = [
+export const exact_sciences = [
   {
     number: '1',
     title: 'Almanaque das curiosidades matemáticas',

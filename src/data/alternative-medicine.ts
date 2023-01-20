@@ -66,7 +66,7 @@ export const alternative_medicine = [
     edition: '-',
     volume: '-',
     publication_date: '1998',
-    subject: 'Alternativa alternativa',
+    subject: 'Saúde da mulher',
     note: '-',
   },
   {
@@ -1342,6 +1342,7 @@ export const alternative_medicine = [
     edition: '-',
     volume: '-',
     publication_date: '1985',
+    subject: 'Exercícios chineses',
     note: '-',
   },
   {
@@ -1416,11 +1417,12 @@ export const alternative_medicine = [
   },
   {
     number: '140',
-    title: 'Transformação Homeostásica pelo tratamento independente ',
+    title: 'Transformação Homeostática pelo tratamento independente',
     author: 'Tomio Kikuchi',
     edition: '3',
     volume: '-',
     publication_date: '1985',
+    subject: 'Tratamento',
     note: '-',
   },
   {
@@ -1943,6 +1945,7 @@ export const alternative_medicine = [
     volume: '-',
     publication_date: '1997',
     subject: 'Medicina natural; enciclopédia',
+    note: '-',
   },
   {
     number: '192',

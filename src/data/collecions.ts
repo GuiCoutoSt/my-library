@@ -764,6 +764,7 @@ export const collections = [
     edition: '-',
     volume: '-',
     publication_date: '1999',
+    subject: 'Antioxidantes',
     note: 'Coleção avery',
   },
   {
@@ -792,6 +793,7 @@ export const collections = [
     author: 'EMBRAPA',
     edition: '-',
     volume: '-',
+    publication_date: '-',
     subject: 'Agricultura',
     note: 'ABC da agricultura',
   },

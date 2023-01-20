@@ -1556,6 +1556,7 @@ export const homeopathy = [
   {
     number: '155',
     title: 'Predictive homeopathy',
+    author: '-',
     edition: '-',
     volume: '-',
     publication_date: '-',

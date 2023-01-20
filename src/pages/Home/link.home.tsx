@@ -12,7 +12,8 @@ export const HomeLink = ({ url, innerText }: IHomeHeader) => {
     <Link
       as={RouterDom}
       to={url}
-      margin='5px 0'
+      width='max-content'
+      margin='5px 5px'
       border='1px solid transparent'
       padding='2px 4px'
       borderRadius='5px'

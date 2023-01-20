@@ -169,7 +169,10 @@ export const Instructions = () => {
             marginTop='20px'
             fontSize='lg'
           >
-            <HomeLink url='/subject/general-medicine' innerText='Medicina' />
+            <HomeLink
+              url='/subject/general-medicine'
+              innerText='Medicina Geral'
+            />
           </Flex>
         </Box>
 
@@ -248,7 +251,7 @@ export const Instructions = () => {
               fontWeight='bold'
             >
               <Text fontSize='3xl'>{1}</Text>
-              <Text fontSize='xl'>{'MEDICINA'}</Text>
+              <Text fontSize='xl'>{'MEDICINA GERAL'}</Text>
             </Box>
           </Flex>
           <Flex
@@ -616,7 +619,7 @@ export const Instructions = () => {
               textAlign='center'
             >
               <Text marginBottom='2px'>1</Text>
-              <Text>MEDICINA</Text>
+              <Text>MEDICINA GERAL</Text>
             </Box>
           </Flex>
         </Box>
