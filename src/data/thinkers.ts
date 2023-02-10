@@ -114,7 +114,7 @@ export const thinkers = [
   {
     number: '12',
     title: 'O homem eterno',
-    author: 'G. K. Cherterton',
+    author: 'G. K. Chesterton',
     edition: '-',
     volume: '-',
     publication_date: '2013',
@@ -124,7 +124,7 @@ export const thinkers = [
   {
     number: '13',
     title: 'São Francisco de Assis',
-    author: 'G. K. Cherterton',
+    author: 'G. K. Chesterton',
     edition: '-',
     volume: '-',
     publication_date: '2014',
@@ -134,7 +134,7 @@ export const thinkers = [
   {
     number: '14',
     title: 'Ortodoxia',
-    author: 'G. K. Cherterton',
+    author: 'G. K. Chesterton',
     edition: '-',
     volume: '-',
     publication_date: '2018',
@@ -144,7 +144,7 @@ export const thinkers = [
   {
     number: '15',
     title: 'Santo Tomás de Aquino',
-    author: 'G. K. Cherterton',
+    author: 'G. K. Chesterton',
     edition: '3',
     volume: '-',
     publication_date: '2015',
@@ -154,7 +154,7 @@ export const thinkers = [
   {
     number: '16',
     title: 'Hereges',
-    author: 'G. K. Cherterton',
+    author: 'G. K. Chesterton',
     edition: '3',
     volume: '-',
     publication_date: '2012',
@@ -164,7 +164,7 @@ export const thinkers = [
   {
     number: '17',
     title: 'O que há de errado com o mundo',
-    author: 'G. K. Cherterton',
+    author: 'G. K. Chesterton',
     edition: '-',
     volume: '-',
     publication_date: '2013',
@@ -572,7 +572,7 @@ export const thinkers = [
   {
     number: '57',
     title: 'A abolição do homem ',
-    author: 'C.S Lewis',
+    author: 'C. S. Lewis',
     edition: '-',
     volume: '-',
     publication_date: '2017',
