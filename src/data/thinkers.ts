@@ -74,7 +74,7 @@ export const thinkers = [
   {
     number: '8',
     title: 'Cristianismo puro e simples',
-    author: 'C. S Lewis',
+    author: 'C. S. Lewis',
     edition: '-',
     volume: '-',
     publication_date: '2017',
@@ -84,7 +84,7 @@ export const thinkers = [
   {
     number: '9',
     title: 'Cartas latinas',
-    author: 'C. S Lewis; São João Calábria',
+    author: 'C. S. Lewis; São João Calábria',
     edition: '-',
     volume: '-',
     publication_date: '2020',
@@ -581,7 +581,7 @@ export const thinkers = [
   },
   {
     number: '58',
-    title: 'Educação clássica vs educação moderna: a visão de C.S Lewis',
+    title: 'Educação clássica vs educação moderna: a visão de C. S. Lewis',
     author: 'Steve Turley',
     edition: '-',
     volume: '-',
