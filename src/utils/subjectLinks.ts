@@ -27,7 +27,7 @@ import { religion } from '../data/religion';
 import { social_sciences } from '../data/social-sciences';
 import { thinkers } from '../data/thinkers';
 
-export const sectionsLink = [
+export const subjectLinks = [
   {
     url: 'architecture',
     innerText: 'Arquitetura',
@@ -42,11 +42,6 @@ export const sectionsLink = [
     url: 'biology',
     innerText: 'Biologia',
     data: biology,
-  },
-  {
-    url: 'children-literature',
-    innerText: 'Literatura Infantil',
-    data: children_literature,
   },
   {
     url: 'exact-sciences',
@@ -104,6 +99,11 @@ export const sectionsLink = [
     url: 'literature',
     innerText: 'Literatura',
     data: literature,
+  },
+  {
+    url: 'children-literature',
+    innerText: 'Literatura Infantil',
+    data: children_literature,
   },
   {
     url: 'alternative-medicine',

@@ -15,7 +15,7 @@ export const HeaderLink = ({ url, innerText }: IHeaderLink) => {
       height='fit-content'
       padding='0 2px'
       borderRadius='5px'
-      textDecoration='underline'
+      textDecoration='none'
       _hover={{
         textDecoration: 'none',
         backgroundColor: 'blue.100',

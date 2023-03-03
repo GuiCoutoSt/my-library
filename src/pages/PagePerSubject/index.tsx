@@ -10,7 +10,7 @@ import {
   Text,
 } from '@chakra-ui/react';
 
-import { Searcher } from '../components/Searcher';
+import { Searcher } from '../../components/Searcher';
 
 type BookData = {
   number: string;
@@ -23,12 +23,12 @@ type BookData = {
   note: string;
 };
 
-interface ISubjaectProps {
+interface IPagePerSubject {
   sectionName: string;
   data: BookData[];
 }
 
-export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
+export const PagePerSubject = ({ sectionName, data }: IPagePerSubject) => {
   const [search, setSearch] = useState('title');
   const [query, setQuery] = useState('');
 
@@ -97,6 +97,7 @@ export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
         setSearch={setSearch}
         query={query}
         setQuery={setQuery}
+        textColor='blue.300'
       />
       <Flex justifyContent='center'>
         <Box
@@ -104,25 +105,6 @@ export const SectionPage = ({ sectionName, data }: ISubjaectProps) => {
           height='700px'
           scrollBehavior='smooth'
           overflowY='scroll'
-          __css={{
-            '&::-webkit-scrollbar': {
-              width: '10px',
-            },
-
-            '&::-webkit-scrollbar-track': {
-              background: 'gray.100',
-            },
-
-            '&::-webkit-scrollbar-thumb': {
-              borderRadius: '5px',
-              background: 'gray.300',
-            },
-
-            '&::-webkit-scrollbar-thumb:hover': {
-              cursor: 'pointer',
-              background: 'gray.500',
-            },
-          }}
         >
           {data
             // eslint-disable-next-line array-callback-return

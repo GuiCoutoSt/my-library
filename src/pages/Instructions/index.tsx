@@ -550,6 +550,7 @@ export const Instructions = () => {
             setSearch={setSearch}
             query={query}
             setQuery={setQuery}
+            textColor='blue.300'
           />
         </Box>
 

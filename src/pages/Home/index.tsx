@@ -17,11 +17,11 @@ import {
 
 import { HomeLink } from './link.home';
 
-import { sectionsLink } from '../../utils/sectionsLink';
+import { subjectLinks } from '../../utils/subjectLinks';
 
 export const Home = () => {
   const booksSum = () => {
-    let sum = sectionsLink.reduce(
+    let sum = subjectLinks.reduce(
       (previousValue, item) => previousValue + item.data.length,
       0
     );
@@ -122,12 +122,56 @@ export const Home = () => {
         </Box>
 
         <Box
+          marginBottom='20px'
           borderRadius='5px'
           backgroundColor='gray.100'
           padding='10px'
           fontSize='lg'
+          fontStyle='italic'
         >
-          <Text fontSize='lg' fontStyle='italic'>
+          <Text>
+            Para acessar todos os livros registrados independentemente do
+            assunto, clique no botão{' '}
+            <Text as='strong'>"Todos os Assuntos"</Text>
+          </Text>
+        </Box>
+
+        <Flex
+          width='100%'
+          height='100%'
+          justifyContent='center'
+          margin='20px 0'
+        >
+          <Link
+            as={RouterDom}
+            to='/all-subjects'
+            border='1px solid transparent'
+            padding='2px 4px'
+            borderRadius='5px'
+            fontSize='xl'
+            textAlign='center'
+            backgroundColor='orange.300'
+            color='orange.700'
+            _hover={{
+              transform: 'translateY(-3px)',
+              borderColor: 'orange.300',
+              textDecoration: 'none',
+              backgroundColor: 'white',
+              color: 'orange.700',
+            }}
+          >
+            Todos os Assuntos
+          </Link>
+        </Flex>
+
+        <Box
+          borderRadius='5px'
+          backgroundColor='gray.100'
+          padding='10px'
+          fontSize='lg'
+          fontStyle='italic'
+        >
+          <Text>
             Esses são os assuntos que dividem as seções de livros disponíveis em
             sua biblioteca. Para acessar, basta clicar na seção desejada.
           </Text>
@@ -136,10 +180,11 @@ export const Home = () => {
           as='nav'
           flexDirection='row'
           flexWrap='wrap'
+          justifyContent='center'
+          gap='10px'
           margin='20px 0'
-          fontSize='lg'
         >
-          {sectionsLink.map((item, index) => {
+          {subjectLinks.map((item, index) => {
             return (
               <HomeLink
                 key={index}

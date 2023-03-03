@@ -6,9 +6,10 @@ import { Contact } from './pages/Contact';
 import { Header } from './components/Header';
 import { Home } from './pages/Home';
 import { Instructions } from './pages/Instructions';
-import { SectionPage } from './pages';
+import { AllSubjects } from './pages/AllSubjects';
+import { PagePerSubject } from './pages/PagePerSubject';
 
-import { sectionsLink } from './utils/sectionsLink';
+import { subjectLinks } from './utils/subjectLinks';
 
 export const App = () => {
   return (
@@ -22,10 +23,16 @@ export const App = () => {
             <Route exact path='/instructions' component={Instructions} />
 
             <Route exact path='/contact' component={Contact} />
-            {sectionsLink.map((item) => {
+
+            <Route exact path='/all-subjects' component={AllSubjects} />
+
+            {subjectLinks.map((item) => {
               return (
                 <Route exact path={`/subject/${item.url}`}>
-                  <SectionPage sectionName={item.innerText} data={item.data} />
+                  <PagePerSubject
+                    sectionName={item.innerText}
+                    data={item.data}
+                  />
                 </Route>
               );
             })}

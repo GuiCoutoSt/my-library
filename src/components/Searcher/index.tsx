@@ -5,9 +5,16 @@ interface ISearcher {
   setSearch: React.Dispatch<React.SetStateAction<string>>;
   query: string;
   setQuery: React.Dispatch<React.SetStateAction<string>>;
+  textColor: string;
 }
 
-export const Searcher = ({ search, setSearch, query, setQuery }: ISearcher) => {
+export const Searcher = ({
+  search,
+  setSearch,
+  query,
+  setQuery,
+  textColor,
+}: ISearcher) => {
   const changeSearch = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setSearch(e.target.value);
   };
@@ -39,7 +46,7 @@ export const Searcher = ({ search, setSearch, query, setQuery }: ISearcher) => {
             borderRadius='5px'
             fontSize='lg'
             textTransform='uppercase'
-            backgroundColor='blue.300'
+            backgroundColor={textColor}
             color='white'
           >
             {defineSearchType(search)}
