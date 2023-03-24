@@ -43,7 +43,7 @@ export const Header = () => {
           </Text>
           <Image src={F4D5} draggable='false' width='30px' />
         </Flex>
-        <HeaderLink url='/' innerText='home' />
+        <HeaderLink url='/' innerText='página inicial' />
         <HeaderLink url='/instructions' innerText='instruções' />
         <HeaderLink url='/contact' innerText='contato' />
       </Flex>

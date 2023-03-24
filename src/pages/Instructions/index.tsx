@@ -7,6 +7,7 @@ import F4D7 from '../../assets/images/1F4D7.svg';
 import {
   Box,
   Flex,
+  Heading,
   Highlight,
   Image,
   Link,
@@ -59,9 +60,9 @@ export const Instructions = () => {
             margin='0 auto'
             marginTop='80px'
             padding='20px'
-            border='1px solid'
+            border='1px solid black'
             borderRadius='5px'
-            borderColor='gray.200'
+            boxShadow='2px 2px 0 0'
             textTransform='uppercase'
           >
             <Text
@@ -74,13 +75,15 @@ export const Instructions = () => {
             >
               índice
             </Text>
-            <List as='ul' color='blue.500'>
+            <List
+              as='ul'
+              fontFamily='monospace'
+              fontSize='md'
+              fontWeight='semibold'
+            >
               <ListItem>
                 <Link
                   href='#sections'
-                  fontWeight='bold'
-                  fontStyle='italic'
-                  color='blue.500'
                   _hover={{ textDecoration: 'underline', color: 'gray.500' }}
                 >
                   seções
@@ -89,9 +92,6 @@ export const Instructions = () => {
               <ListItem>
                 <Link
                   href='#registers'
-                  fontWeight='bold'
-                  fontStyle='italic'
-                  color='blue.500'
                   _hover={{ textDecoration: 'underline', color: 'gray.500' }}
                 >
                   entendendo os registros
@@ -100,9 +100,6 @@ export const Instructions = () => {
               <ListItem>
                 <Link
                   href='#searching'
-                  fontWeight='bold'
-                  fontStyle='italic'
-                  color='blue.500'
                   _hover={{ textDecoration: 'underline', color: 'gray.500' }}
                 >
                   pesquisando
@@ -111,9 +108,6 @@ export const Instructions = () => {
               <ListItem>
                 <Link
                   href='#fiding'
-                  fontWeight='bold'
-                  fontStyle='italic'
-                  color='blue.500'
                   _hover={{ textDecoration: 'underline', color: 'gray.500' }}
                 >
                   localizando livros na biblioteca
@@ -124,26 +118,22 @@ export const Instructions = () => {
         </Box>
 
         <Box id='sections' padding='80px 0'>
-          <Text
-            width='fit-content'
-            margin='30px 0 10px 0'
+          <Heading
+            as='h2'
+            margin='3rem 0 1rem'
             fontSize='2xl'
             fontWeight='semibold'
-            fontStyle='italic'
             textTransform='lowercase'
           >
-            <Highlight
-              query='seções'
-              styles={{ px: '2', py: '1', bg: 'orange.100' }}
-            >
-              seções
-            </Highlight>
-          </Text>
+            seções
+          </Heading>
 
           <Box
             padding='10px'
             borderRadius='5px'
-            backgroundColor='gray.100'
+            backgroundColor='#fefae0'
+            border='1px solid'
+            boxShadow='0 2px 0 0'
             fontSize='lg'
           >
             <Text>
@@ -176,28 +166,24 @@ export const Instructions = () => {
           </Flex>
         </Box>
 
-        <Box id='registers' padding='80px 0'>
-          <Text
-            width='fit-content'
-            margin='30px 0 10px 0'
+        <Box id='registers' padding='3rem 0'>
+          <Heading
+            as='h2'
+            margin='3rem 0 1rem'
             fontSize='2xl'
             fontWeight='semibold'
-            fontStyle='italic'
             textTransform='lowercase'
           >
-            <Highlight
-              query='entendendo os registros'
-              styles={{ px: '2', py: '1', bg: 'orange.100' }}
-            >
-              entendendo os registros
-            </Highlight>
-          </Text>
+            entendendo os registros
+          </Heading>
           <Box
             marginBottom='20px'
             padding='10px'
+            border='1px solid'
             borderRadius='5px'
-            backgroundColor='gray.100'
+            boxShadow='0 2px 0 0'
             fontSize='lg'
+            backgroundColor='#fefae0'
           >
             <Text>
               Cada registro é composto de campos que descrevem os livros.
@@ -205,18 +191,11 @@ export const Instructions = () => {
               campo para compreender melhor.
             </Text>
           </Box>
-          <Text
-            marginTop='10px'
-            fontSize='md'
-            fontStyle='italic'
-            color='red.500'
-          >
-            * Exemplo de registro *
-          </Text>
+
           <Flex
             flexDirection='column'
             justifyContent='space-between'
-            border='1px solid #444'
+            border='2px solid'
             borderRadius='10px'
           >
             <Box padding='15px' backgroundColor='white' borderTopRadius='10px'>
@@ -227,7 +206,7 @@ export const Instructions = () => {
                   }
                 </Text>
               </Text>
-              <Box fontSize='large'>
+              <Box>
                 <Text>Autor: {'Roberto Lent'}</Text>
                 <Text>Edição: {'-'}</Text>
                 <Text>Ano: {'2001'}</Text>
@@ -241,25 +220,37 @@ export const Instructions = () => {
                 </Text>
               </Box>
             </Box>
-            <Box
+            <Flex
               width='100%'
-              padding='10px 0'
+              justifyContent='center'
+              alignItems='center'
+              gap='10px'
+              borderTop='1px solid'
               borderBottomRadius='8px'
               textAlign='center'
-              backgroundColor='blue.400'
-              color='white'
-              fontWeight='bold'
+              fontFamily='monospace'
+              backgroundColor='white'
             >
-              <Text fontSize='3xl'>{1}</Text>
+              <Text fontSize='2xl'>{1}</Text>
               <Text fontSize='xl'>{'MEDICINA GERAL'}</Text>
-            </Box>
+            </Flex>
           </Flex>
+          <Text
+            margin='1rem 0'
+            fontSize='md'
+            fontStyle='italic'
+            textAlign='right'
+            color='red.500'
+          >
+            * Exemplo de registro *
+          </Text>
           <Flex
             flexDirection='column'
             margin='20px 0'
-            padding='10px'
+            padding='1.5rem'
             borderRadius='5px'
-            backgroundColor='gray.100'
+            border='1px solid'
+            boxShadow='2px 2px 0 0'
             fontSize='md'
             fontFamily='monospace'
           >
@@ -272,7 +263,7 @@ export const Instructions = () => {
               >
                 <Highlight
                   query='Título'
-                  styles={{ px: '2', py: '1', bg: 'orange.200' }}
+                  styles={{ px: '2', py: '1', bg: '#fefae0' }}
                 >
                   Título
                 </Highlight>
@@ -299,7 +290,7 @@ export const Instructions = () => {
               >
                 <Highlight
                   query='Edição'
-                  styles={{ px: '2', py: '1', bg: 'orange.200' }}
+                  styles={{ px: '2', py: '1', bg: '#fefae0' }}
                 >
                   Edição
                 </Highlight>
@@ -323,7 +314,7 @@ export const Instructions = () => {
               >
                 <Highlight
                   query='Ano'
-                  styles={{ px: '2', py: '1', bg: 'orange.200' }}
+                  styles={{ px: '2', py: '1', bg: '#fefae0' }}
                 >
                   Ano
                 </Highlight>
@@ -351,7 +342,7 @@ export const Instructions = () => {
               >
                 <Highlight
                   query='Volume'
-                  styles={{ px: '2', py: '1', bg: 'orange.200' }}
+                  styles={{ px: '2', py: '1', bg: '#fefae0' }}
                 >
                   Volume
                 </Highlight>
@@ -375,7 +366,7 @@ export const Instructions = () => {
               >
                 <Highlight
                   query='Nota'
-                  styles={{ px: '2', py: '1', bg: 'orange.200' }}
+                  styles={{ px: '2', py: '1', bg: '#fefae0' }}
                 >
                   Nota
                 </Highlight>
@@ -398,7 +389,7 @@ export const Instructions = () => {
               >
                 <Highlight
                   query='Assunto'
-                  styles={{ px: '2', py: '1', bg: 'orange.200' }}
+                  styles={{ px: '2', py: '1', bg: '#fefae0' }}
                 >
                   Assunto
                 </Highlight>
@@ -426,7 +417,7 @@ export const Instructions = () => {
               >
                 <Highlight
                   query='Numeração'
-                  styles={{ px: '2', py: '1', bg: 'orange.200' }}
+                  styles={{ px: '2', py: '1', bg: '#fefae0' }}
                 >
                   Numeração
                 </Highlight>
@@ -445,28 +436,25 @@ export const Instructions = () => {
         </Box>
 
         <Box id='searching' padding='80px 0'>
-          <Text
+          <Heading
+            as='h2'
             width='fit-content'
-            margin='30px 0 10px 0'
+            margin='3rem 0 1rem'
             fontSize='2xl'
             fontWeight='semibold'
-            fontStyle='italic'
             textTransform='lowercase'
           >
-            <Highlight
-              query='pesquisando'
-              styles={{ px: '2', py: '1', bg: 'orange.100' }}
-            >
-              pesquisando
-            </Highlight>
-          </Text>
+            pesquisando
+          </Heading>
 
           <Box
             marginBottom='20px'
             padding='10px'
+            border='1px solid'
             borderRadius='5px'
-            backgroundColor='gray.100'
+            boxShadow='0 2px 0 0'
             fontSize='lg'
+            backgroundColor='#fefae0'
           >
             <Text>
               Ao ser redirecionado para a seção escolhida, serão exibidos todos
@@ -478,55 +466,61 @@ export const Instructions = () => {
           <Box
             marginBottom='20px'
             padding='10px'
+            border='1px solid'
             borderRadius='5px'
-            backgroundColor='gray.100'
+            boxShadow='0 2px 0 0'
             fontSize='lg'
+            backgroundColor='#fefae0'
           >
             <Text>
               Existe a possibilidade de se utilizar três filtros de pesquisa
               nesse sistema:{' '}
               <Text
-                as='strong'
+                as='span'
                 padding='2px'
+                border='1px solid'
+                boxShadow='1px 1px 0 0'
                 borderRadius='5px'
-                textTransform='uppercase'
-                backgroundColor='blue.400'
-                color='white'
+                fontFamily='monospace'
+                backgroundColor='white'
               >
                 Título
-              </Text>
-              ,{' '}
+              </Text>{' '}
+              -{' '}
               <Text
-                as='strong'
+                as='span'
                 padding='2px'
+                border='1px solid'
+                boxShadow='1px 1px 0 0'
                 borderRadius='5px'
-                textTransform='uppercase'
-                backgroundColor='blue.400'
-                color='white'
+                fontFamily='monospace'
+                backgroundColor='white'
               >
                 Autor
               </Text>{' '}
-              e{' '}
+              -{' '}
               <Text
-                as='strong'
+                as='span'
                 padding='2px'
+                border='1px solid'
+                boxShadow='1px 1px 0 0'
                 borderRadius='5px'
-                textTransform='uppercase'
-                backgroundColor='blue.400'
-                color='white'
+                fontFamily='monospace'
+                backgroundColor='white'
               >
                 Assunto
               </Text>
-              .
             </Text>
           </Box>
 
           <Box
             marginBottom='20px'
             padding='10px'
+            border='1px solid'
             borderRadius='5px'
-            backgroundColor='gray.100'
+            boxShadow='0 2px 0 0'
             fontSize='lg'
+            backgroundColor='#fefae0'
           >
             <Text fontWeight='bold' textTransform='uppercase' color='red.500'>
               atenção
@@ -537,46 +531,44 @@ export const Instructions = () => {
               fim de retornar os resultados (incluindo acentuação das palavras).
             </Text>
           </Box>
-          <Text
-            marginTop='10px'
-            fontSize='md'
-            fontStyle='italic'
-            color='red.500'
-          >
-            * Buscador meramente ilustrativo! *
-          </Text>
+
           <Searcher
             search={search}
             setSearch={setSearch}
             query={query}
             setQuery={setQuery}
-            textColor='blue.300'
           />
+          <Text
+            margin='1rem 0'
+            fontSize='md'
+            fontStyle='italic'
+            textAlign='right'
+            color='red.500'
+          >
+            * Buscador meramente ilustrativo! *
+          </Text>
         </Box>
 
         <Box id='fiding' padding='80px 0'>
-          <Text
+          <Heading
+            as='h2'
             width='fit-content'
-            margin='30px 0 10px 0'
+            margin='3rem 0 1rem'
             fontSize='2xl'
             fontWeight='semibold'
-            fontStyle='italic'
             textTransform='lowercase'
           >
-            <Highlight
-              query='localizando livros na biblioteca'
-              styles={{ px: '2', py: '1', bg: 'orange.100' }}
-            >
-              localizando livros na biblioteca
-            </Highlight>
-          </Text>
+            localizando livros na biblioteca
+          </Heading>
 
           <Box
-            margin='20px 0'
+            marginBottom='20px'
             padding='10px'
+            border='1px solid'
             borderRadius='5px'
-            backgroundColor='gray.100'
+            boxShadow='0 2px 0 0'
             fontSize='lg'
+            backgroundColor='#fefae0'
           >
             <Text>
               Ao encontrar o livro desejado nos registros, o próximo passo é
@@ -584,11 +576,13 @@ export const Instructions = () => {
             </Text>
           </Box>
           <Box
-            margin='20px 0'
+            marginBottom='20px'
             padding='10px'
+            border='1px solid'
             borderRadius='5px'
-            backgroundColor='gray.100'
+            boxShadow='0 2px 0 0'
             fontSize='lg'
+            backgroundColor='#fefae0'
           >
             <Text>
               O que determina a localização física dos livros são duas
@@ -598,11 +592,13 @@ export const Instructions = () => {
             </Text>
           </Box>
           <Box
-            margin='20px 0'
+            marginBottom='20px'
             padding='10px'
+            border='1px solid'
             borderRadius='5px'
-            backgroundColor='gray.100'
+            boxShadow='0 2px 0 0'
             fontSize='lg'
+            backgroundColor='#fefae0'
           >
             <Text>
               De acordo com o exemplo de registro mostrado acima, a etiqueta é
@@ -615,8 +611,7 @@ export const Instructions = () => {
               width='300px'
               padding='20px'
               border='1px solid'
-              borderColor='gray.200'
-              borderRadius='10px'
+              borderRadius='5px'
               textAlign='center'
             >
               <Text marginBottom='2px'>1</Text>

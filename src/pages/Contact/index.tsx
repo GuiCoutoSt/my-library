@@ -43,15 +43,19 @@ export const Contact = () => {
               position='relative'
               padding='20px'
               border='1px solid'
-              borderColor='gray.200'
               borderRadius='5px'
+              boxShadow='1px 1px 0 0'
               textAlign='left'
             >
-              <Text fontSize='xl' fontWeight='semibold'>
-                WhatsApp
-              </Text>
-              <Text id='wpp-copy'>(61) 98234-2442</Text>
-              <CopyButton elementId='wpp-copy' />
+              <Flex justifyContent='space-between'>
+                <Box>
+                  <Text fontSize='xl' fontWeight='semibold'>
+                    WhatsApp
+                  </Text>
+                  <Text id='wpp-copy'>(61) 98234-2442</Text>
+                </Box>
+                <CopyButton elementId='wpp-copy' />
+              </Flex>
 
               <Link
                 href='https://wa.me/5561982342442'
@@ -66,18 +70,20 @@ export const Contact = () => {
               </Link>
             </Flex>
             <Flex
-              flexDirection='column'
+              justifyContent='space-between'
               position='relative'
               padding='20px'
               border='1px solid'
-              borderColor='gray.200'
               borderRadius='5px'
+              boxShadow='1px 1px 0 0'
               textAlign='left'
             >
-              <Text fontSize='xl' fontWeight='semibold'>
-                Email
-              </Text>
-              <Text id='email-copy'>gcoutos95@gmail.com</Text>
+              <Box>
+                <Text fontSize='xl' fontWeight='semibold'>
+                  Email
+                </Text>
+                <Text id='email-copy'>gcoutos95@gmail.com</Text>
+              </Box>
               <CopyButton elementId='email-copy' />
             </Flex>
           </Box>

@@ -26,9 +26,9 @@ export const App = () => {
 
             <Route exact path='/all-subjects' component={AllSubjects} />
 
-            {subjectLinks.map((item) => {
+            {subjectLinks.map((item, index) => {
               return (
-                <Route exact path={`/subject/${item.url}`}>
+                <Route exact path={`/subject/${item.url}`} key={index}>
                   <PagePerSubject
                     sectionName={item.innerText}
                     data={item.data}

@@ -13,18 +13,15 @@ export const HomeLink = ({ url, innerText }: IHomeHeader) => {
       as={RouterDom}
       to={url}
       width='max-content'
-      border='1px solid transparent'
+      border='1px solid'
       padding='2px 4px'
       borderRadius='5px'
-      fontSize='xl'
-      backgroundColor='blue.100'
-      color='blue.600'
+      color='black'
       _hover={{
-        transform: 'translateY(-2px)',
+        transform: 'translate(-2px, -2px)',
         textDecoration: 'none',
         backgroundColor: 'white',
-        borderColor: 'blue.500',
-        color: 'blue.600',
+        boxShadow: '2px 2px 0 0 black',
       }}
     >
       {innerText}

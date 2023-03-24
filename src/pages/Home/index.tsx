@@ -12,7 +12,7 @@ import {
   StatHelpText,
   Text,
   Image,
-  Highlight,
+  Heading,
 } from '@chakra-ui/react';
 
 import { HomeLink } from './link.home';
@@ -88,44 +88,40 @@ export const Home = () => {
         <Stat
           margin='30px auto'
           padding='10px'
-          border='1px solid'
-          borderColor='gray.200'
+          border='1px solid black'
           borderRadius='5px'
           textAlign='left'
           backgroundColor='white'
+          boxShadow='2px 2px 0 0 black'
         >
           <StatLabel fontSize='lg' fontWeight='semibold'>
-            Total de Livros
+            total de livros
           </StatLabel>
           <StatNumber>{totalOfBooks}</StatNumber>
           <StatHelpText fontStyle='italic'>
-            Número de livros cadastrados no sistema
+            número de livros cadastrados no sistema
           </StatHelpText>
         </Stat>
         <Box>
-          <Text
+          <Heading
             as='h2'
-            width='fit-content'
-            margin='30px 0 10px 0'
+            margin='3rem 0 2rem'
             fontSize='3xl'
             fontWeight='semibold'
-            fontStyle='italic'
+            textAlign='center'
             textTransform='lowercase'
           >
-            <Highlight
-              query='assuntos'
-              styles={{ px: '2', py: '1', bg: 'orange.100' }}
-            >
-              assuntos
-            </Highlight>
-          </Text>
+            assuntos
+          </Heading>
         </Box>
 
         <Box
           marginBottom='20px'
           borderRadius='5px'
-          backgroundColor='gray.100'
+          backgroundColor='#fefae0'
           padding='10px'
+          border='1px solid'
+          boxShadow='0 2px 0 0'
           fontSize='lg'
           fontStyle='italic'
         >
@@ -136,28 +132,20 @@ export const Home = () => {
           </Text>
         </Box>
 
-        <Flex
-          width='100%'
-          height='100%'
-          justifyContent='center'
-          margin='20px 0'
-        >
+        <Flex width='100%' height='100%' margin='20px 0' fontSize='lg'>
           <Link
             as={RouterDom}
             to='/all-subjects'
-            border='1px solid transparent'
+            width='max-content'
+            border='1px solid'
             padding='2px 4px'
             borderRadius='5px'
-            fontSize='xl'
-            textAlign='center'
-            backgroundColor='orange.300'
-            color='orange.700'
+            color='black'
             _hover={{
-              transform: 'translateY(-3px)',
-              borderColor: 'orange.300',
+              transform: 'translate(-2px, -2px)',
               textDecoration: 'none',
               backgroundColor: 'white',
-              color: 'orange.700',
+              boxShadow: '2px 2px 0 0 black',
             }}
           >
             Todos os Assuntos
@@ -166,8 +154,10 @@ export const Home = () => {
 
         <Box
           borderRadius='5px'
-          backgroundColor='gray.100'
           padding='10px'
+          backgroundColor='#fefae0'
+          border='1px solid'
+          boxShadow='0 2px 0 0'
           fontSize='lg'
           fontStyle='italic'
         >
@@ -180,9 +170,9 @@ export const Home = () => {
           as='nav'
           flexDirection='row'
           flexWrap='wrap'
-          justifyContent='center'
           gap='10px'
           margin='20px 0'
+          fontSize='lg'
         >
           {subjectLinks.map((item, index) => {
             return (

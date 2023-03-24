@@ -2,7 +2,7 @@ import { extendTheme, theme as ChakraTheme } from '@chakra-ui/react';
 
 export const theme = extendTheme({
   fonts: {
-    heading: 'Inter, sans-serif',
+    heading: 'monospace, sans-serif',
     body: 'Inter, sans-serif',
   },
   fontSizes: {
@@ -29,7 +29,7 @@ export const theme = extendTheme({
       body: {
         height: '100%',
         bg: 'white',
-        color: '#444',
+        color: 'black',
       },
     },
   },

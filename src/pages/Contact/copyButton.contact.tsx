@@ -24,15 +24,20 @@ export const CopyButton = ({ elementId }: ICopyButtonProps) => {
   return (
     <Button
       onClick={() => copyText(elementId)}
-      position='absolute'
-      top='0'
-      right='0'
+      width='fit-content'
+      height='fit-content'
+      padding='0.5rem'
+      border='1px solid'
+      borderRadius='5px'
       fontSize='sm'
       textTransform='uppercase'
-      backgroundColor='green.300'
-      color='white'
+      backgroundColor='blue.50'
+      color='black'
       _hover={{
-        backgroundColor: 'green.500',
+        boxShadow: '2px -2px 0 0 black',
+        transform: 'translate(-2px, 2px)',
+
+        borderTop: '1px solid',
       }}
     >
       {copyButton} <CopyIcon marginLeft='5px' />
